@@ -1,0 +1,40 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/hongziki/.emacs.d/" . "backups/")
+ ("/home/hongziki/projects/mytest/" . "python/")
+ ("/home/hongziki/projects/" . "mytest/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/hongziki/.emacs.d/"
+ "/home/hongziki/"
+ "/home/hongziki/projects/mytest/python/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs.bak"
+ ".emacs"
+ "test.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/hongziki/projects/mytest/python/" (22232 1182 427273 251000) "option_confirm.c" "noddy.so" "ktgg_es" "testp/" "datastructure/" "fujian" "noddy2.c" "newktgg.txt" "setup.py" "test.py~" "./" ".idea/" "option_confirm.so" "ktgg.txt" "read_ktgg.py" "noddy.c" "build/" "../" "test.py" "zyktgg.txt" "newktgg_es" "treelib/")
+
+ ("/home/hongziki/.emacs.d/backups/" (22232 2179 605327 98000) "!home!hongziki!.emacs.d!elpa!ein-20160203.2026!ein-autoloads.el~" "!home!hongziki!.emacs.d!elpa!material-theme-20160302.1334!material-theme-autoloads.el~" "!home!hongziki!.emacs.d!elpa!magit-popup-20160302.322!magit-popup-autoloads.el~" "!home!hongziki!.emacs.d!elpa!py-autopep8-20151231.614!py-autopep8-autoloads.el~" "!home!hongziki!.emacs.d!elpa!flycheck-20160302.1046!flycheck-autoloads.el~" "!home!hongziki!.emacs.d!elpa!let-alist-1.0.4!let-alist-autoloads.el~" "!home!hongziki!.emacs.d!elpa!with-editor-20160223.1155!with-editor-autoloads.el~" "!home!hongziki!.emacs.d!elpa!async-20160223.146!async-autoloads.el~" "!home!hongziki!.emacs.d!elpa!seq-1.11!seq-autoloads.el~" "!home!hongziki!.emacs.d!elpa!magit-20160302.322!magit-autoloads.el~" "./" "!home!hongziki!.emacs.d!elpa!epl-20150517.433!epl-autoloads.el~" "!home!hongziki!.emacs.d!elpa!request-20160108.33!request-autoloads.el~" "!home!hongziki!.emacs.d!elpa!git-commit-20160130.649!git-commit-autoloads.el~" "../" "!home!hongziki!.emacs.d!elpa!pkg-info-20150517.443!pkg-info-autoloads.el~" "!home!hongziki!.emacs.d!elpa!websocket-20160227.2122!websocket-autoloads.el~" "!home!hongziki!.emacs.d!elpa!cl-generic-0.2!cl-generic-autoloads.el~")
+
+ ("/home/hongziki/.emacs.d/" (22232 1674 320256 397000) "places" "auto-save-list/" "elpa/" "./" "ido.last" ".git/" "../" "backups/")
+
+ ("/home/hongziki/" (22232 2303 965688 339000) "#.emacs#" ".xinputrc" "tools/" ".gnome/" ".bash_logout" ".pki/" ".gitconfig" ".emacs~" ".spark_history" ".kingsoft/" ".nano/" ".sbt/" "图片/" ".aptitude/" "documents/" ".cache/" ".PyCharm50/" ".nvidia-settings-rc" "文档/" ".vim/" ".dia/" ".bash_history" "projects/" ".viminfo" ".pip/" ".vimrc" "音乐/" ".wiznote/" ".ivy2/" "桌面/" ".dbus/" ".#.emacs" ".oracle_jre_usage/" ".gvfs/" "下载/" ".mozilla/" ".local/" "公共的/" ".nv/" "./" ".ICEauthority" ".gconf/" ".subversion/" ".ssh/" ".profile" ".java/" ".gnupg/" ".kde/" ".Xauthority" ".presage/" ".emacs.d/" ".ipython/" "tmp/" ".config/" ".sudo_as_admin_successful" "../" ".emacs" ".m2/" "视频/" ".sunpinyin/" "模板/" ".bashrc" ".thunderbird/")
+
+ ("/home/hongziki/projects/mytest/" (22192 7667 656410 162000) "sklearnp/" "pypi_mirror/" "python/" "./" "untitled/" "c++/" "bandersnatchtest/" "../")
+
+ ("/home/hongziki/projects/" (22141 696 898285 755000) "svn/" "./" "git/" "job/" "../" "mytest/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
