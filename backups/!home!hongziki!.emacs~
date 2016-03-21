@@ -7,9 +7,49 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-;;color-theme
-;;(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
-(load-theme 'solarized-dark t)
+;; ================================================
+;; common
+;; ================================================
+;; tab width
+(setq tab-width: 4)
+
+;; goto line
+(global-set-key (kbd "\C-c\C-g") 'goto-line)
+
+;; newline in mid
+(defun newline-next-current()
+  "like vim o"
+  (interactive)
+  (progn (end-of-line)
+         (newline-and-indent))
+  )
+(global-set-key (kbd "\C-o") 'newline-next-current)
+
+;; copy&paste a single line
+;; copy rigion or whole line
+(global-set-key
+ (kbd "M-w")
+ (lambda ()
+    (interactive)
+    (if mark-active
+        (kill-ring-save (region-beginning) (region-end))
+      (progn
+        (kill-ring-save (line-beginning-position)
+                        (line-end-position))
+        (message "copied line")
+        ))))
+;; kill region or while line
+(global-set-key
+ (kbd "C-w")
+ (lambda ()
+   (interactive)
+   (if mark-active
+       (kill-region (region-beginning) (region-end))
+     (progn
+       (kill-region (line-beginning-position) (line-end-position))
+       (message "kill line")
+       ))))
+
 
 ;; hide startup message
 (setq inhibit-startup-message t)
@@ -19,25 +59,104 @@
 
 (defvar myPackages
   '(better-defaults
+    material-theme
     ein
     elpy
-;;    flycheck
-    material-theme
-    py-autopep8))
+    py-autopep8
+    magit
+    auto-complete
+    yasnippet
+    irony
+    company-irony
+    flycheck-irony
+    ;auto-complete-c-headers
+    ;iedit
+    ;flymake-google-cpplint
+    ;flymake-cursor
+    ;google-c-style
+    ))
 
 (mapc #'(lambda (package)
 	  (unless (package-installed-p package)
 	    (package-install package)))
       myPackages)
 
+;;color-theme
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
+(load-theme 'material t)
+
+
+;; ================================================
+;; c/c++ ide
+;; ================================================
+;; refer to https://github.com/Sarcasm/irony-mode
+(add-hook 'c++-mode-hook 'irony-mode)
+(add-hook 'c-mode-hook 'irony-mode)
+(add-hook 'objc-mode-hook 'irony-mode)
+
+;; refer to https://github.com/Sarcasm/company-irony
+(eval-after-load 'company
+  '(add-to-list 'company-backends 'company-irony))
+
+;; refer to https://github.com/Sarcasm/flycheck-irony
+(eval-after-load 'flycheck
+  '(add-hook 'fkycheck-mode-hook #'flycheck-irony-setup))
+
+;;; c/c++
+;(require 'auto-complete)
+;(require 'auto-complete-config)
+;(ac-config-default)
+;(require 'yasnippet)
+;(yas-global-mode t)
+;;; let's define a function which initializes auto-complete-c-headers and gets called for c/c++ headers
+;(defun my:ac-c-header-init()
+;  (require 'auto-complete-c-headers)
+;  (add-to-list 'ac-source 'ac-source-c-headers)
+;  (add-to-list 'achead:include-directories '"/usr/include/c++/5")
+;  )
+;;; now let's call this funcion from c/c++ hooks
+;(add-hook 'c++-mode-hook 'my:ac-c-header-init)
+;(add-hook 'c-mode-hook 'my:ac-c-header-init)
+;;; start flymake-google-cpplint-load
+;;; define a function for flymake initialization
+;(defun my:flymake-google-init()
+;  (require 'flymake-google-cpplint)
+;  (flymake-google-cpplint-load)
+;  )
+;
+;(add-hook 'c-mode-hook 'my:flymake-google-init)
+;(add-hook 'c++-mode-hook 'my:flymake-google-init)
+;
+;;; start google-c-style with emacs
+;(require 'google-c-style)
+;(add-hook 'c-mode-common-hook 'google-set-c-style)
+;(add-hook 'c-mode-common-hook 'google-make-newline-indent)
+;;; turn on semantic
+;(semantic-mode 1)
+;;; let's define a function which adds semantic as a suggestion backend to auto complete
+;;; and hook this function to c-mode-common-hook
+;(defun my:add-semantic-to-autocomplete()
+;  (add-to-list 'ac-sources 'ac-source-semantic)
+;  )
+;(add-hook 'c-mode-common-hook 'my:add-semantic-to-autocomplete)
+;
+;;; turn on automatic reparsing of open buffers in semantic
+;(global-semantic-idle-scheduler-mode 1)
+
+
+;; ================================================
+;; pyton ide
+;; ================================================
+
 ;; elpy
 (elpy-enable)
 (elpy-use-ipython)
 
 ;; flycheck
-;;(when (require 'flycheck nil t)
-;;  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
-;;  (add-hook 'elpy-mode-hook 'flycheck-mode))
+(when (require 'flycheck nil t)
+
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
 
 ;; autopep8
 (require 'py-autopep8)
