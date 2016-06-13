@@ -16,6 +16,9 @@
 ;; goto line
 (global-set-key (kbd "\C-c\C-g") 'goto-line)
 
+;; auto-save nil
+(setq auto-save-default nil)
+
 ;; newline in mid
 (defun newline-next-current()
   "like vim o"
@@ -67,8 +70,13 @@
     auto-complete
     yasnippet
     irony
+    company
     company-irony
     flycheck-irony
+    irony-eldoc
+    projectile
+    helm-projectile
+    markdown-mode
     ;auto-complete-c-headers
     ;iedit
     ;flymake-google-cpplint
@@ -85,69 +93,77 @@
 ;;(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
 (load-theme 'material t)
 
-
+;(require 'yasnippet)
+;(yas-global-mode t)
 ;; ================================================
 ;; c/c++ ide
 ;; ================================================
-;; refer to https://github.com/Sarcasm/irony-mode
+; refer to https://gist.github.com/soonhokong/7c2bf6e8b72dbc71c93b
+;; =============
+;; irony-mode
+;; =============
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
-(add-hook 'objc-mode-hook 'irony-mode)
-
-;; refer to https://github.com/Sarcasm/company-irony
+;; =============
+;; company mode
+;; =============
+(add-hook 'c++-mode-hook 'company-mode)
+(add-hook 'c-mode-hook 'company-mode)
+;; replace the `completion-at-point' and `complete-symbol' bindings in
+;; irony-mode's buffers by irony-mode's function
+(defun my-irony-mode-hook ()
+(define-key irony-mode-map [remap completion-at-point]
+  'irony-completion-at-point-async)
+(define-key irony-mode-map [remap complete-symbol]
+  'irony-completion-at-point-async))
+(add-hook 'irony-mode-hook 'my-irony-mode-hook)
+(add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 (eval-after-load 'company
-  '(add-to-list 'company-backends 'company-irony))
-
-;; refer to https://github.com/Sarcasm/flycheck-irony
+'(add-to-list 'company-backends 'company-irony))
+;; (optional) adds CC special commands to `company-begin-commands' in order to
+;; trigger completion at interesting places, such as after scope operator
+;;     std::|
+(add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
+;; =============
+;; flycheck-mode
+;; =============
+(add-hook 'c++-mode-hook 'flycheck-mode)
+(add-hook 'c-mode-hook 'flycheck-mode)
 (eval-after-load 'flycheck
-  '(add-hook 'fkycheck-mode-hook #'flycheck-irony-setup))
-
-;;; c/c++
-;(require 'auto-complete)
-;(require 'auto-complete-config)
-;(ac-config-default)
-;(require 'yasnippet)
-;(yas-global-mode t)
-;;; let's define a function which initializes auto-complete-c-headers and gets called for c/c++ headers
-;(defun my:ac-c-header-init()
-;  (require 'auto-complete-c-headers)
-;  (add-to-list 'ac-source 'ac-source-c-headers)
-;  (add-to-list 'achead:include-directories '"/usr/include/c++/5")
-;  )
-;;; now let's call this funcion from c/c++ hooks
-;(add-hook 'c++-mode-hook 'my:ac-c-header-init)
-;(add-hook 'c-mode-hook 'my:ac-c-header-init)
-;;; start flymake-google-cpplint-load
-;;; define a function for flymake initialization
-;(defun my:flymake-google-init()
-;  (require 'flymake-google-cpplint)
-;  (flymake-google-cpplint-load)
-;  )
-;
-;(add-hook 'c-mode-hook 'my:flymake-google-init)
-;(add-hook 'c++-mode-hook 'my:flymake-google-init)
-;
-;;; start google-c-style with emacs
-;(require 'google-c-style)
-;(add-hook 'c-mode-common-hook 'google-set-c-style)
-;(add-hook 'c-mode-common-hook 'google-make-newline-indent)
-;;; turn on semantic
-;(semantic-mode 1)
-;;; let's define a function which adds semantic as a suggestion backend to auto complete
-;;; and hook this function to c-mode-common-hook
-;(defun my:add-semantic-to-autocomplete()
-;  (add-to-list 'ac-sources 'ac-source-semantic)
-;  )
-;(add-hook 'c-mode-common-hook 'my:add-semantic-to-autocomplete)
-;
-;;; turn on automatic reparsing of open buffers in semantic
-;(global-semantic-idle-scheduler-mode 1)
-
+'(add-hook 'flycheck-mode-hook #'flycheck-irony-setup))
+;; =============
+;; eldoc-mode
+;; =============
+(add-hook 'irony-mode-hook 'irony-eldoc)
+;; ==========================================
+;; (optional) bind TAB for indent-or-complete
+;; ==========================================
+; (defun irony--check-expansion ()
+; (save-excursion
+;   (if (looking-at "\\_>") t
+;     (backward-char 1)
+;     (if (looking-at "\\.") t
+;       (backward-char 1)
+;       (if (looking-at "->") t nil)))))
+; (defun irony--indent-or-complete ()
+; "Indent or Complete"
+; (interactive)
+; (cond ((and (not (use-region-p))
+;             (irony--check-expansion))
+;        (message "complete")
+;        (company-complete-common))
+;       (t
+;        (message "indent")
+;        (call-interactively 'c-indent-line-or-region))))
+; (defun irony-mode-keys ()
+; "Modify keymaps used by `irony-mode'."
+; (local-set-key (kbd "TAB") 'irony--indent-or-complete)
+; (local-set-key [tab] 'irony--indent-or-complete))
+; (add-hook 'c-mode-common-hook 'irony-mode-keys)
 
 ;; ================================================
 ;; pyton ide
 ;; ================================================
-
 ;; elpy
 (elpy-enable)
 (elpy-use-ipython)
@@ -161,3 +177,26 @@
 ;; autopep8
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+;; project relate
+(projectile-global-mode)
+;(setq projectile-completion-system 'helm)
+(require 'helm-projectile)
+(helm-projectile-on)
+
+;; markdown
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+(setq markdown-command
+   "pandoc -c file:///home/hongziki/.emacs.d/github-pandoc.css -f markdown -t html5 -s --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML --highlight-style=pygments --smart --table-of-contents")
+;;   "pandoc -s -c file:///home/hongziki/.emacs.d/github-pandoc.css -t html5 --mathjax --highlight-style espresso --smart --table-of-contents --standalone")

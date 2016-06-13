@@ -7,39 +7,196 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-;;color-theme
-;;(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
-(load-theme 'solarized-dark t)
+;; ================================================
+;; common
+;; ================================================
+;; tab width
+(setq tab-width: 4)
+
+;; goto line
+(global-set-key (kbd "\C-c\C-g") 'goto-line)
+
+;; auto-save nil
+(setq auto-save-default nil)
+
+;; newline in mid
+(defun newline-next-current()
+  "like vim o"
+  (interactive)
+  (progn (end-of-line)
+         (newline-and-indent))
+  )
+(global-set-key (kbd "\C-o") 'newline-next-current)
+
+;; copy&paste a single line
+;; copy rigion or whole line
+(global-set-key
+ (kbd "M-w")
+ (lambda ()
+    (interactive)
+    (if mark-active
+        (kill-ring-save (region-beginning) (region-end))
+      (progn
+        (kill-ring-save (line-beginning-position)
+                        (line-end-position))
+        (message "copied line")
+        ))))
+;; kill region or while line
+(global-set-key
+ (kbd "C-w")
+ (lambda ()
+   (interactive)
+   (if mark-active
+       (kill-region (region-beginning) (region-end))
+     (progn
+       (kill-region (line-beginning-position) (line-end-position))
+       (message "kill line")
+       ))))
+
 
 ;; hide startup message
 (setq inhibit-startup-message t)
 ;; enable line numbers
-(global-linum-mode t)
+;;(global-linum-mode t)
 
 
 (defvar myPackages
   '(better-defaults
+    material-theme
     ein
     elpy
-    ;;    flycheck
+    py-autopep8
     magit
-    material-theme
-    py-autopep8))
+    auto-complete
+    yasnippet
+    irony
+    company
+    company-irony
+    flycheck-irony
+    irony-eldoc
+    projectile
+    helm-projectile
+    markdown-mode
+    ;auto-complete-c-headers
+    ;iedit
+    ;flymake-google-cpplint
+    ;flymake-cursor
+    ;google-c-style
+    ))
 
 (mapc #'(lambda (package)
 	  (unless (package-installed-p package)
 	    (package-install package)))
       myPackages)
 
+;;color-theme
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
+(load-theme 'material t)
+
+;(require 'yasnippet)
+;(yas-global-mode t)
+;; ================================================
+;; c/c++ ide
+;; ================================================
+; refer to https://gist.github.com/soonhokong/7c2bf6e8b72dbc71c93b
+;; =============
+;; irony-mode
+;; =============
+(add-hook 'c++-mode-hook 'irony-mode)
+(add-hook 'c-mode-hook 'irony-mode)
+;; =============
+;; company mode
+;; =============
+(add-hook 'c++-mode-hook 'company-mode)
+(add-hook 'c-mode-hook 'company-mode)
+;; replace the `completion-at-point' and `complete-symbol' bindings in
+;; irony-mode's buffers by irony-mode's function
+(defun my-irony-mode-hook ()
+(define-key irony-mode-map [remap completion-at-point]
+  'irony-completion-at-point-async)
+(define-key irony-mode-map [remap complete-symbol]
+  'irony-completion-at-point-async))
+(add-hook 'irony-mode-hook 'my-irony-mode-hook)
+(add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+(eval-after-load 'company
+'(add-to-list 'company-backends 'company-irony))
+;; (optional) adds CC special commands to `company-begin-commands' in order to
+;; trigger completion at interesting places, such as after scope operator
+;;     std::|
+(add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
+;; =============
+;; flycheck-mode
+;; =============
+(add-hook 'c++-mode-hook 'flycheck-mode)
+(add-hook 'c-mode-hook 'flycheck-mode)
+(eval-after-load 'flycheck
+'(add-hook 'flycheck-mode-hook #'flycheck-irony-setup))
+;; =============
+;; eldoc-mode
+;; =============
+(add-hook 'irony-mode-hook 'irony-eldoc)
+;; ==========================================
+;; (optional) bind TAB for indent-or-complete
+;; ==========================================
+; (defun irony--check-expansion ()
+; (save-excursion
+;   (if (looking-at "\\_>") t
+;     (backward-char 1)
+;     (if (looking-at "\\.") t
+;       (backward-char 1)
+;       (if (looking-at "->") t nil)))))
+; (defun irony--indent-or-complete ()
+; "Indent or Complete"
+; (interactive)
+; (cond ((and (not (use-region-p))
+;             (irony--check-expansion))
+;        (message "complete")
+;        (company-complete-common))
+;       (t
+;        (message "indent")
+;        (call-interactively 'c-indent-line-or-region))))
+; (defun irony-mode-keys ()
+; "Modify keymaps used by `irony-mode'."
+; (local-set-key (kbd "TAB") 'irony--indent-or-complete)
+; (local-set-key [tab] 'irony--indent-or-complete))
+; (add-hook 'c-mode-common-hook 'irony-mode-keys)
+
+;; ================================================
+;; pyton ide
+;; ================================================
 ;; elpy
 (elpy-enable)
 (elpy-use-ipython)
 
 ;; flycheck
-;;(when (require 'flycheck nil t)
-;;  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
-;;  (add-hook 'elpy-mode-hook 'flycheck-mode))
+(when (require 'flycheck nil t)
+
+  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
 
 ;; autopep8
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+;; project relate
+(projectile-global-mode)
+;(setq projectile-completion-system 'helm)
+(require 'helm-projectile)
+(helm-projectile-on)
+
+;; markdown
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+(setq markdown-command
+   "pandoc -c file:///home/hongziki/.emacs.d/github-pandoc.css -f markdown -t html5 -s --mathjax=https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML --highlight-style=pygments --smart --table-of-contents")
+;;   "pandoc -s -c file:///home/hongziki/.emacs.d/github-pandoc.css -t html5 --mathjax --highlight-style espresso --smart --table-of-contents --standalone")

@@ -2,100 +2,270 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/hongziki/projects/git/learning/crf/" . "crf/")
+ ("/home/hongziki/projects/git/learning/" . "crf/")
+ ("/home/hongziki/projects/git/task_relate/qybgxx/" . "apps/")
+ ("/home/hongziki/projects/data_ana/" . "court_ann/")
+ ("/home/hongziki/projects/git/task_relate/puhuifazhi/" . "doc/")
+ ("/home/hongziki/task_relate/data_layout/doc/" . "no_law/")
+ ("/home/hongziki/task_relate/data_layout/" . "doc/")
+ ("/home/hongziki/task_relate/" . "data_layout/")
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/" . "court_announce/")
+ ("/home/hongziki/projects/git/task_relate/data_layout/" . "libs/")
+ ("/home/hongziki/projects/git/task_relate/" . "data_platform/")
+ ("/home/hongziki/projects/job/my_tools/" . "company_name_index_dict/")
+ ("/home/hongziki/projects/mytest/c++/algorithms_in_c/build/" . "CMakeFiles/")
+ ("/home/hongziki/projects/mytest/c++/algorithms_in_c/" . "src/")
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/build/" . "bin/")
+ ("/home/hongziki/projects/mytest/c++/algorithms/" . "test_math/")
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/" . "src/")
  ("/tmp/build-irony-server-0.2.0/" . "CMakeFiles/")
  ("/tmp/" . "build-irony-server-0.2.0/")
  ("/home/hongziki/projects/job/qqzone/" . "apps/")
  ("/home/hongziki/projects/job/extr_executive_info/" . "apps/")
- ("/home/hongziki/projects/git/my_tools/" . "my_git_tools/")
+ ("/home/hongziki/projects/git/my_tools/" . "python/")
  ("/home/hongziki/projects/job/higgs_addr/" . "apps/")
  ("/home/hongziki/projects/job/economic_index/" . "apps/")
  ("/home/hongziki/projects/git/higgs_parser/" . "app/")
  ("/home/hongziki/projects/job/bidding/" . "apps/")
  ("/home/hongziki/projects/job/job_note/xinhua08/" . "newbond/")
  ("/home/hongziki/projects/job/xinhua08/" . "apps/")
- ("/home/hongziki/projects/git/bond_system/" . "bond/")
+ ("/home/hongziki/projects/git/bond_system/" . "libs/")
  ("/home/hongziki/.virtualenvs/pyemacs/lib/" . "python2.7/")
  ("/home/hongziki/.virtualenvs/pyemacs/" . "lib/")
  ("/home/hongziki/.virtualenvs/" . "pyemacs/")
  ("/home/hongziki/" . "projects/")
  ("/home/hongziki/projects/job/job_note/count/yaojia/" . "高级法院/")
  ("/home/hongziki/projects/job/job_note/count/" . "yaojia/")
- ("/home/hongziki/projects/job/job_note/" . "count/")
- ("/home/hongziki/projects/job/" . "job_note/")
+ ("/home/hongziki/projects/job/job_note/" . "economic_index/")
+ ("/home/hongziki/projects/job/" . "libs/")
  ("/home/hongziki/projects/git/rmfygg_parser/" . "app/")
- ("/home/hongziki/projects/git/" . "rmfygg_parser/")
+ ("/home/hongziki/projects/git/" . "task_relate/")
  ("/home/hongziki/projects/mytest/c++/demos/" . "my_program/")
- ("/home/hongziki/projects/mytest/c++/" . "algorithms/")
+ ("/home/hongziki/projects/mytest/c++/" . "algorithms_in_c/")
  ("/home/hongziki/projects/mytest/c++/demos/my_program/" . "src/")
  ("/home/" . "hongziki/")
- ("/" . "tmp/")
+ ("/" . "home/")
  ("/home/hongziki/.emacs.d/" . "auto-save-list/")
- ("/home/hongziki/projects/mytest/" . "c++/")
- ("/home/hongziki/projects/" . "mytest/")
+ ("/home/hongziki/projects/mytest/" . "python/")
+ ("/home/hongziki/projects/" . "git/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/hongziki/projects/git/task_relate/qybgxx/"
+ "/home/hongziki/projects/git/task_relate/qybgxx/apps/"
+ "/home/hongziki/projects/git/task_relate/data_layout/libs/"
+ "/home/hongziki/projects/git/task_relate/data_layout/"
  "/home/hongziki/"
- "/home/hongziki/projects/mytest/c++/algorithms/"
- "/tmp/build-irony-server-0.2.0/CMakeFiles/"
- "/home/hongziki/projects/git/rmfygg_parser/app/"
- "/home/hongziki/projects/git/higgs_parser/"
- "/home/hongziki/projects/git/higgs_parser/app/"
- "/home/hongziki/projects/job/job_note/count/yaojia/高级法院/"
- "/home/hongziki/projects/job/bidding/apps/"
- "/home/hongziki/projects/git/higgs_parser/libs/"
- "/home/hongziki/projects/job/qqzone/apps/"
- "/home/hongziki/projects/job/extr_executive_info/apps/"
- "/home/hongziki/projects/job/higgs_addr/apps/"
- "/home/hongziki/projects/job/economic_index/apps/"
- "/home/hongziki/projects/git/bond_system/"
- "/home/hongziki/projects/git/bond_system/bond/"
- "/home/hongziki/projects/job/proj_module/"
- "/home/hongziki/projects/git/rmfygg_parser/"
- "/home/hongziki/projects/git/computing-engine/"
- "/home/hongziki/projects/git/rmfygg_parser/data/"
- "/home/hongziki/projects/job/job_note/xinhua08/newbond/"
- "/home/hongziki/projects/job/job_note/xinhua08/"
- "/home/hongziki/projects/job/xinhua08/apps/"
- "/home/hongziki/projects/git/bond_system/libs/"
- "/home/hongziki/projects/job/job_note/count/yaojia/"
- "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/jieba/posseg/"
- "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/jieba/"
+ "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/hmmlearn/tests/"
+ "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/hmmlearn/"
+ "/home/hongziki/projects/git/task_relate/data_platform/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/court_announce/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/puhuifazhi/"
+ "/home/hongziki/projects/git/task_relate/data_layout/tests/"
+ "/home/hongziki/projects/git/learning/crf/crf/"
+ "/home/hongziki/projects/git/task_relate/puhuifazhi/doc/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/judgement/"
  "/home/hongziki/projects/mytest/python/"
- "/home/hongziki/projects/mytest/c++/demos/my_program/src/"
- "/home/hongziki/projects/mytest/c++/demos/my_program/my_inc/"
- "/home/hongziki/projects/mytest/c++/"
- "/home/hongziki/.emacs.d/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/bidding/"
+ "/home/hongziki/projects/job/libs/"
+ "/home/hongziki/projects/data_ana/data_layout/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/"
+ "/home/hongziki/projects/data_ana/court_ann/"
+ "/home/hongziki/projects/git/webapi/"
+ "/home/hongziki/projects/git/webapi/templates/"
+ "/home/hongziki/projects/job/extr_executive_info/apps/"
+ "/home/hongziki/projects/job/economic_index/apps/"
+ "/home/hongziki/projects/job/higgs_addr/apps/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/dict/"
+ "/home/hongziki/projects/job/proj_module/"
+ "/home/hongziki/projects/git/my_tools/python/"
+ "/home/hongziki/projects/git/task_relate/data_layout/data/"
+ "/home/hongziki/projects/git/bond_system/libs/"
+ "/home/hongziki/projects/git/task_relate/kunlun/apps/"
+ "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/requests/"
+ "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/py2neo/"
+ "/home/hongziki/projects/git/computing-engine/"
+ "/home/hongziki/projects/git/task_relate/kunlun/"
+ "/home/hongziki/projects/mytest/c++/algorithms_in_c/src/"
+ "/home/hongziki/projects/git/bond_system/bond/"
+ "/home/hongziki/projects/mytest/c++/algorithms/"
+ "/home/hongziki/projects/git/task_relate/"
+ "/home/hongziki/projects/mytest/c++/algorithms_in_c/"
+ "/home/hongziki/projects/git/rmfygg_parser/app/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/biding/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/rmfy_court/"
+ "/home/hongziki/projects/git/task_relate/data_layout/apps/no_litigation/"
+ "/home/hongziki/projects/git/higgs_parser/"
+ "/home/hongziki/projects/job/my_tools/company_name_index_dict/"
+ "/home/hongziki/task_relate/data_layout/doc/no_law/"
+ "/home/hongziki/projects/mytest/c++/algorithms_in_c/build/"
+ "/home/hongziki/projects/mytest/c++/algorithms/test_math/"
+ "/home/hongziki/projects/mytest/c++/algorithms/test_math/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- ".emacs"
- "STACK.cxx"
- "CMakeOutput.log"
- "sort3.c"
- "sort.cxx"
- "pra.py"
- "rmfygg_parser.py"
- "ReasonStart.dat"
- "program-4-17.cxx"
- "program-4-19.cxx"
+ "Readme"
+ "parse_document.py"
+ "fields_extractor.py"
+ "gdxx_extractor.py"
+ "bgxx_entry.py"
+ "bgxx_entry_for_test.py"
+ "address_extractor.py"
+ "fields_scheduler.py"
+ "punc_relate.py"
+ "coding_relate.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/hongziki/" (22255 22915 176324 698000) ".xinputrc" "tools/" ".gnome/" ".bash_logout" ".pki/" ".gitconfig" ".emacs~" ".spark_history" ".kingsoft/" ".nano/" ".sbt/" "图片/" ".virtualenvs/" ".aptitude/" "documents/" ".cache/" ".PyCharm50/" ".nvidia-settings-rc" "文档/" ".vim/" ".dia/" ".bash_history" "projects/" ".viminfo" ".pip/" ".vimrc" "音乐/" ".wiznote/" ".ivy2/" "桌面/" ".dbus/" ".oracle_jre_usage/" ".gvfs/" "下载/" ".mozilla/" ".local/" "公共的/" ".nv/" "./" ".ICEauthority" ".gconf/" ".subversion/" ".ssh/" ".profile" ".java/" ".gnupg/" ".kde/" ".Xauthority" ".presage/" ".emacs.d/" ".ipython/" "tmp/" ".config/" ".sudo_as_admin_successful" "../" ".emacs" ".m2/" "视频/" ".sunpinyin/" "模板/" ".swt/" ".nutstore/" ".bashrc" ".thunderbird/")
+ ("/home/hongziki/projects/git/task_relate/qybgxx/apps/" (22365 7462 736298 856000) "coding_relate.pyc" "bgxx_entry_for_test.py" "parse_document.pyc" "comtype_extractor.pyc" "openfrom_extractor.pyc" "regno_extractor.pyc" "key_fields_name.py" "key_fields_name.pyc" "realcap_extractor.pyc" "fields_scheduler.py" "gdxx_extractor.pyc" "regcapcur_extractor.pyc" "regorg_extractor.py" "scope_extractor.py" "regcapcur_extractor.py" "coding_relate.py" "fields_extractor.pyc" "realcap_extractor.py" "parentfirm_extractor.py" "regno_extractor.py" "address_extractor.py" "credit_extractor.py" "scope_extractor.pyc" "fields_scheduler.pyc" "baxx_extractor.pyc" "fields_extractor.py" "parse_document.py" "invcap_extractor.py" "esdate_extractor.pyc" "credit_extractor.pyc" "bgxx_entry.py" "opento_extractor.py" "period_extractor.py" "./" "esdate_extractor.py" "period_extractor.pyc" "comname_extractor.pyc" "gdxx_extractor.py" "frname_extractor.py" "invcap_extractor.pyc" "regorg_extractor.pyc" "regcap_extractor.pyc" "frname_extractor.pyc" "regcap_extractor.py" "openfrom_extractor.py" "opento_extractor.pyc" "../" "baxx_extractor.py" "comtype_extractor.py" "comname_extractor.py" "address_extractor.pyc" "parentfirm_extractor.pyc")
 
- ("/home/hongziki/projects/mytest/c++/algorithms/" (22251 52448 686891 447000) "queue-link.cxx" "program-3-15.cpp" "avg_std" "stack_link.cxx" "program-4-19.cxx" "program-4-16.cxx" "program-4-17" "program-4-17.cxx" "UF.cxx" "list.h" "program-3-9.cpp" "stack.h" "avg_std.cpp" "sort.cxx" "program-3-15" "STACK.cxx" "./" "sort3" "sort3.o" "sort3.c" "program-3-9" "list.cpp" "sort" "../" "malloc2dArr.cpp")
+ ("/home/hongziki/projects/git/task_relate/qybgxx/" (22357 9390 149336 373000) "Readme" "./" "apps/" ".gitignore" ".git/" "../" "libs/")
 
- ("/tmp/build-irony-server-0.2.0/CMakeFiles/" (22255 21878 145480 852000) "cmake.check_cache" "CMakeTmp/" "feature_tests.c" "feature_tests.bin" "./" "CMakeOutput.log" "feature_tests.cxx" "../" "3.2.2/")
+ ("/home/hongziki/" (22359 26985 767857 127000) ".xinputrc" "tools/" ".gnome/" ".bash_logout" ".pki/" ".gitconfig" ".emacs~" ".spark_history" ".kingsoft/" ".nano/" ".gem/" ".sbt/" "图片/" ".appcfg_nag" ".virtualenvs/" ".aptitude/" "documents/" ".cache/" ".PyCharm50/" ".nvidia-settings-rc" "文档/" ".vim/" ".goldendict/" ".dia/" ".bash_history" "projects/" ".viminfo" "programming/" ".pip/" ".vimrc" "音乐/" ".wiznote/" ".python_history" ".ivy2/" "桌面/" ".dbus/" ".oracle_jre_usage/" ".neo4j_shell_history" ".gvfs/" "下载/" ".mozilla/" ".local/" "公共的/" ".nv/" "./" ".ICEauthority" ".gconf/" ".subversion/" ".ssh/" ".profile" ".java/" ".gnupg/" ".kde/" ".Xauthority" ".presage/" ".emacs.d/" ".ipython/" "tmp/" ".config/" ".sudo_as_admin_successful" "../" ".emacs" ".m2/" "视频/" ".sunpinyin/" "模板/" ".swt/" ".nutstore/" ".bashrc" ".thunderbird/")
 
- ("/tmp/build-irony-server-0.2.0/" (22255 21878 145480 852000) "CMakeCache.txt" "DartConfiguration.tcl" "Testing/" "./" "CMakeFiles/" "src/" "../")
+ ("/home/hongziki/projects/git/task_relate/" (22349 7669 746337 272000) "data_layout/" "kunlun/" "data_layout.egg-info/" "qybgxx/" "setup.py" "data_platform/" "dist/" "./" "puhuifazhi/" "../")
 
- ("/tmp/" (22255 21878 129481 198000) "tracker-extract-files.1000/" ".ICE-unix/" "build-irony-server-0.2.0/" ".font-unix/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-colord.service-Lh2myA/" "ssh-sGuXUeaK2iVP/" ".X11-unix/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-rtkit-daemon.service-7nSNHX/" "fcitx-socket-:1" "mendeley-desktop-1000.lock" ".XIM-unix/" ".com.google.Chrome.gIVSTJ/" ".Test-unix/" "config-err-xkEnpV" "hsperfdata_hongziki/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-systemd-timesyncd.service-GWdtg2/" "NutstoreTmp0xyz/" "../" "./")
+ ("/home/hongziki/projects/git/task_relate/data_layout/data/" (22341 6553 459624 714000) "ktgg_utf8" "filterss.py" "xgxx_shgy_zhongbjg" "hlj_zyktgg.json" "qyxg_zgcpwsw" "zyktgg" "qyxg_zgcpwsw_err" "zgcpwsw_zhixing.shuf" "itslaw_test" "zgcpwsw_new_shuf.txt" "no_ltg" "./" "qyxg_wscpws_get1.tar.gz" "qyxg_wscpwsw" "qyxg_wscpws_get.json" "qyxg_zgcpwsw_1000" "ktgg" "qyxg_wscpws_get1/" "../" "zgcpwsw_test" "puhui_ana.py" "qyxg_zgcpwsw_2016_0524.zip" "ktgg_samp.txt")
 
- ("/home/hongziki/.emacs.d/" (22255 21774 67729 976000) "places" "auto-save-list/" "elpa/" ".emacs.bak" "./" "ido.last" ".git/" "../" "ac-comphist.dat" "backups/" "semanticdb/")
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/dict/" (22349 7474 239375 787000) "courtList.dat" "types.dat" "court.csv~" "case3.dat" "man.classfiy" "NickName.dat" "case.cause" "__init__.py" "puhuifazhi_partition_key.dat" "court.csv" "./" "ReasonStart.dat" "court_yard2.csv" "program.dat" "../" "case4.dat")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/tests/" (22349 7474 243375 683000) "test_ktgg.py" "puhuifazhi.raw" "test_bidding.py~" "zhaobiao.raw" "__init__.py" "zyktgg.raw" "itslaw.raw" "test_bidding.py" "BBDGetCompanys_Client/" "test_puhuifazhi.py" "./" "test_judgement.py" "__init__.pyc" "test.pyc" "../" "test.py" "ktgg.raw" "cpws.raw")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/puhuifazhi/" (22349 7474 239375 787000) "extract_doc_type.py" "extractor.py" "__init__.py" "doc_category_re.pyc" "extract_law.py" "doc_normalization.py" "extract_law.pyc" "InclusiveLegalSystem_Judgements.py" "InclusiveLegalSystem_Judgements.pyc" "./" "extract_doc_type.pyc" "__init__.pyc" "doc_category_re.py" "doc_normalization.pyc" "extractor.pyc" "../" "wrong_doc.pyc" "wrong_doc.py")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/court_announce/" (22349 7474 235375 892000) "json_pra.py" "pra.pyc" "__init__.py" "pra.py" "Kpra.py" "./" "__init__.pyc" "read_ktgg.py" "../" "Kpra.pyc")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/hmmlearn/tests/" (22343 48729 849515 115000) "test_gmm_hmm.pyc" "test_gmm_hmm.py" "__init__.py" "test_gaussian_hmm.pyc" "test_multinomial_hmm.pyc" "./" "test_base.py" "test_utils.pyc" "__init__.pyc" "test_base.pyc" "test_utils.py" "../" "test_multinomial_hmm.py" "test_gaussian_hmm.py")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/" (22349 7474 235375 892000) "__init__.py" "Readme" "data/" "./" ".idea/" "apps/" "tests/" "__init__.pyc" ".gitignore" ".git/" "../" "doc/" "libs/")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/judgement/" (22340 10409 493876 654000) "__init__.py" "__init__.py~" "judge.pyc" "newsplit.pyc" "nameextr.pyc" "newsplit.py" "judge.py" "./" "nameextr.py" "__init__.pyc" "../")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/hmmlearn/" (22343 46013 737530 829000) "base.pyc" "hmm.pyc" "__init__.py" "base.py" "utils.py" "./" "hmm.py" "tests/" "utils.pyc" "__init__.pyc" "_hmmc.so" "../")
+
+ ("/home/hongziki/projects/git/learning/crf/crf/" (22340 5733 352058 655000) "__init__.py" "example.py" "risk.py" "stringcrf.py" "stringcrf2.py" "./" "crf.py" "../")
+
+ ("/home/hongziki/projects/git/learning/crf/" (22340 5733 352058 655000) "crf/" "LICENSE" "setup.py" "data/" "./" "README.md" ".gitignore" ".git/" "../")
+
+ ("/home/hongziki/projects/git/learning/" (22340 5724 844195 88000) "crf/" "./" "../")
+
+ ("/home/hongziki/projects/git/" (22340 5718 944288 779000) "my_tools/" "computing-engine/" "rmfygg_parser/" "task_relate/" "higgs_parser/" "learning/" "webapi/" "./" "bond_system/" "../")
+
+ ("/home/hongziki/projects/git/task_relate/puhuifazhi/apps/" (22301 59606 832312 798000) "puhuifazhi_gdk_new_new (1).tar.gz" "api (4)/" "api (3)/" "puhuifazhi_gdk_new.tar.gz" "puhuifazhi_gdk.tar.gz" "./" "api (2)/" "api/" "puhuifazhi_gdk_new_new.tar.gz" "src/" "../")
+
+ ("/home/hongziki/projects/git/task_relate/puhuifazhi/doc/" (22334 59725 768287 571000) "指导性案例手工梳理.xlsx" "裁判文书解析需求文档（20160328）.docx" "裁判文书解析需求文档（20160328） (2).docx" "法院清单（解析使用）.xlsx" "court.csv" "测试2.docx" "cour1.csv~" "案由.xlsx" "全部字段-4.21.docx" "案由.csv" "全部字段-4.25.docx" "phfz.txt" "statistic.txt~" "裁判文书解析需求文档（20160328） (1).docx" "statistic.txt" "phfz_body_ex.json" "./" "gdk_ziqi" "../" "fix.py" "bug测试.docx" "法院清单（解析使用）1.xlsx")
+
+ ("/home/hongziki/projects/data_ana/data_layout/" (22332 14235 321714 855000) "ktgg_ret" "中国国际招标网中标公告数据解析需求文档V1.0.docx" "~$【裁判文书】数据平台2.1需求.xlsx" "企业变更信息/" "mongo_data.py" "bgxx.dat" "【裁判文书】数据平台2.1需求.xlsx" "./" "bgxx_all.dat" "../" "数据平台-变更信息-数据解析需求-V1.0-20160428.xlsx")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/bidding/" (22332 13653 692695 961000) "extr_m.pyc" "extr_m.py" "__init__.py" "indexing_dict.pyc" "extr_org.py" "./" "indexing_dict.py" "__init__.pyc" "biddingagency_m.pyc" "biddingagency_m.py" "../" "extr_org.pyc")
+
+ ("/home/" (22137 25567 211495 591000) "./" "hongziki/" "../")
+
+ ("/home/hongziki/projects/mytest/python/" (22330 61224 989899 272000) "option_confirm.c" "noddy.so" "ktgg_es" "suffix_tree.md" "ukkonen 后缀树算法.docx" "string_sim.py" "gen_suffix_trees.py" "suffix_tree.py" "ukkonon_suffix_tree.py" "testp/" "datastructure/" "fujian" "jarowinkler_sim.py" "noddy2.c" "newktgg.txt" "setup.py" "test.py~" "#ukkonon_suffix_tree.py#" "mathtest.md" "pandoc_test/" "./" ".idea/" "option_confirm.so" "ktgg.txt" "read_ktgg.py" "singleton.py" "noddy.c" "build/" "read_title_cpwsw.py" "imp_jaro_sim.py" "../" "test.py" "zyktgg.txt" "newktgg_es" "treelib/")
+
+ ("/home/hongziki/projects/git/task_relate/puhuifazhi/" (22293 39752 7018 834000) "./" "apps/" ".gitignore" ".git/" "../" "doc/")
+
+ ("/home/hongziki/projects/job/libs/" (22120 3283 0 0) "common_tools.py" "province_city_building.py" "logging.json" "parsing_args.pyc" "__init__.py" "Readme" "time_this.py" "indexing_dict_building.py" "setup.py" "setup_logger.py" "parsing_args.py" "./" "time_this.pyc" "dict/" ".gitignore" "common_tools.pyc" "province_city_building.pyc" ".git/" "extractor_module.pyc" "../" "extractor_module.py")
+
+ ("/home/hongziki/projects/git/my_tools/python/" (22305 34848 540845 204000) "package_setup.py" "common_tools.py" "py_file_module.py" "Readme" "time_this.py" "indexing_dict.pyc" "setup.py" "indexing_dict_bak.py" "./" "time_this.pyc" "indexing_dict_extractor.py" "indexing_dict.py" "common_tools.pyc" "../")
+
+ ("/home/hongziki/projects/git/webapi/" (22306 48435 891096 98000) "seg_web_api.py" "./" "dict/" ".git/" "../" "templates/")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/" (22314 49696 315431 236000) "rmfy_court/" "__init__.py" "bidding/" "court_announce/" "judgement/" "./" "dict/" "__init__.pyc" "puhuifazhi/" "../")
+
+ ("/home/hongziki/projects/data_ana/" (22313 22728 971465 27000) "data_layout/" "./" "court_ann/" "../")
+
+ ("/home/hongziki/projects/data_ana/court_ann/" (22307 3006 236829 422000) "ana.py" "ukkonon_suffix_tree.py" "dat" "keyword.word" "ukkonon_suffix_tree.pyc" "case.csv" "zyktgg" "keyword.dict" "./" "ktgg" "imp_jaro_sim.py" "short_sim.py" "../" "dict_gen.py" "short_sim.pyc")
+
+ ("/home/hongziki/projects/git/webapi/templates/" (22306 48222 369457 188000) "help.html" "./" "../")
+
+ ("/home/hongziki/projects/" (22305 34716 325882 673000) "svn/" "./" "data_ana/" "git/" "job/" "../" "mytest/")
+
+ ("/home/hongziki/projects/mytest/" (22192 7667 656410 162000) "sklearnp/" "pypi_mirror/" "python/" "./" "untitled/" "c++/" "bandersnatchtest/" "../")
+
+ ("/home/hongziki/projects/job/job_note/economic_index/" (22102 56032 0 0) "新经济行业划分关键字映射表（招标、风投）V5.xlsx" "./" "新经济指数城市字库（104个地级以上城市及县区-市匹配表）V3.xlsx" "../" "省-核心城市匹配表.xlsx")
+
+ ("/home/hongziki/projects/job/job_note/" (22303 7647 793836 828000) "zhang.rar" "personal/" "gov_relate/" "ruanjianzhuzuoquan/" "bidding/" "for_zhang/" "需求/" "economic_index/" "for_zhang.tar.gz" "./" "qqzone/" "relate_party/" "jiexi/" "stanford_segmenter.tar.bz2" "tmp/" "xinhua08/" "../" "count/" "rpc/")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/libs/" (22301 54954 456011 867000) "coding_relate.pyc" "common_tools.py" "coding_relate.py" "__init__.py" "time_this.py" "./" "time_this.pyc" "__init__.pyc" "common_tools.pyc" "../")
+
+ ("/home/hongziki/projects/git/task_relate/data_platform/" (22284 44982 509949 943000) "judgement_parser.py" "itslaw_parser.py" "data_layout/" "court_parser.py" "ParseBase.py" "./" "zhongbiao_parser.py" "zhaobiao_parser.py" "../")
+
+ ("/home/hongziki/projects/job/job_note/count/yaojia/高级法院/" (22283 3009 366998 607000) "ktgg_all_shuf" "ktgg_es" "json_pra.py" "ktgg_all" "content_left_mod1_ret" "content_left_mod1" "Readme" "newktgg.txt" "Kpra.py" "#Kpra.py#" "model/" "ktgg_all_shuf_result" "ktgg_all_result" "./" "ktgg_es_result" "sample.json" "ktgg.txt" "read_ktgg.py" "rmfygg_shuf10000" "开庭公告（高院）解析详细设计文档(1).docx" "../" "zyktgg.txt" "Kpra.pyc" "newktgg_es")
+
+ ("/home/hongziki/projects/job/economic_index/apps/" (22270 4487 551840 339000) "imp_extr.py" "tmp.py" "vocation.py" "extract_info.py" "vocation.data" "./" "pcd_list.data" "tmp" "../")
+
+ ("/home/hongziki/projects/git/task_relate/kunlun/apps/" (22270 23892 923808 210000) "__init__.py" "create_rel.py" "./" "create_rel.pyc" "tmp" "../")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/requests/" (22269 61758 298794 102000) "cacert.pem" "models.pyc" "exceptions.py" "sessions.pyc" "auth.pyc" "hooks.pyc" "api.py" "__init__.py" "cookies.py" "adapters.py" "exceptions.pyc" "sessions.py" "utils.py" "packages/" "auth.py" "certs.pyc" "status_codes.pyc" "./" "compat.pyc" "certs.py" "api.pyc" "utils.pyc" "__init__.pyc" "hooks.py" "models.py" "adapters.pyc" "structures.py" "status_codes.py" "structures.pyc" "cookies.pyc" "../" "compat.py")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/" (22269 61758 310793 716000) "simplegeneric.py" "neokit.pyc" "pep8.py" "importmagic/" "query_string.py" "setuptools-18.4.dist-info/" "simplegeneric-0.8.1-py2.7.egg-info/" "traitlets/" "post.py" "path.py" "decorator.py" "pip/" "importmagic-0.1.5-py2.7.egg-info/" "py2neo-3b1.dist-info/" "rope-0.10.3-py2.7.egg-info/" "path.pyc" "decorator.pyc" "pyflakes/" "pickleshare.py" "ptyprocess/" "autopep8.pyc" "yapf/" "jedi/" "get.pyc" "ipython_genutils/" "pickleshare.pyc" "get-0.0.7-py2.7.egg-info/" "neokit.py" "yapftests/" "easy_install.pyc" "jedi-0.9.0.dist-info/" "pip-1.5.6.dist-info/" "pyflakes-1.0.0.dist-info/" "get.py" "rope/" "simplegeneric.pyc" "public-0.0.0-py2.7.egg-info/" "flake8/" "dict.py" "self-0.0.5-py2.7.egg-info/" "public.pyc" "mccabe.pyc" "query_string-0.0.5-py2.7.egg-info/" "flake8-2.5.4.dist-info/" "dict-0.0.5-py2.7.egg-info/" "mccabe.py" "dict.pyc" "traitlets-4.1.0.dist-info/" "pexpect/" "autopep8.py" "self.py" "ipython-4.1.2.dist-info/" "pexpect-4.0.1-py2.7.egg-info/" "easy_install.py" "self.pyc" "requests-2.9.1.dist-info/" "pkg_resources/" "./" "_markerlib/" "setuptools/" "IPython/" "post-0.0.5-py2.7.egg-info/" "query_string.pyc" "ipdb/" "decorator-4.0.9.dist-info/" "ptyprocess-0.5.1.dist-info/" "py2neo/" "ipython_genutils-0.1.0.dist-info/" "public.py" "ipdb-0.9.0-py2.7.egg-info/" "test_path.pyc" "post.pyc" "autopep8-1.2.2-py2.7.egg-info/" "jieba-0.38-py2.7.egg-info/" "../" "test_path.py" "yapf-0.6.3.dist-info/" "pep8-1.7.0.dist-info/" "pickleshare-0.6.dist-info/" "pep8.pyc" "mccabe-0.4.0.dist-info/" "path.py-8.1.2.dist-info/" "jieba/" "requests/")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/" (22240 55369 623831 487000) "include/" "local/" "share/" "bin/" "./" "lib/" "../")
+
+ ("/home/hongziki/.virtualenvs/" (22268 32019 398597 981000) "initialize" "predeactivate" "prermvirtualenv" "postactivate" "postdeactivate" "premkvirtualenv" "premkproject" "get_env_details" "./" "postrmvirtualenv" "pyemacs/" "../" "postmkproject" "preactivate" "postmkvirtualenv")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/py2neo/" (22268 34042 354998 262000) "__init__.py" "packages/" "util.py" "./" "compat.pyc" "database/" "ext/" "types.py" "__init__.pyc" "types.pyc" "util.pyc" "../" "compat.py")
+
+ ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/py2neo/database/" (22269 57361 472918 165000) "auth.pyc" "cypher.py" "__init__.py" "auth.py" "cypher.pyc" "http.pyc" "./" "http.py" "status.py" "__init__.pyc" "../" "status.pyc")
+
+ ("/home/hongziki/projects/git/task_relate/kunlun/" (22268 31488 273518 468000) "./" "apps/" ".gitignore" ".git/" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms_in_c/src/" (22267 32684 132459 132000) "tree.c" "CMakeLists.txt" "./" "main.c" "link_list.c" "graph.c" "stack.c" "../" "geometric.c")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms_in_c/build/" (22265 57297 588993 914000) "CMakeCache.txt" "cmake_install.cmake" "bin/" "./" "compile_commands.json" "CMakeFiles/" "Makefile" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms_in_c/" (22265 57170 504479 374000) "bin/" "CMakeLists.txt" "./" ".gitignore" "build/" ".git/" "src/" "../" "doc/")
+
+ ("/home/hongziki/projects/git/my_tools/" (22264 57547 580260 174000) "cpps/" "master" "python/" "data/" "./" ".idea/" ".gitignore" ".git/" "../" "shells/")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/biding/" (22262 24085 910170 621000) "extr_m.pyc" "extr_m.py" "__init__.py" "extr_org.py" "./" "__init__.pyc" "biddingagency_m.pyc" "biddingagency_m.py" "../" "extr_org.pyc")
+
+ ("/home/hongziki/projects/job/my_tools/company_name_index_dict/" (22262 15513 610629 49000) "common_tools.py" "word_cnt" "time_this.py" "company_shuf10000" "company_list_shuf" "extr_executive_info.py" "./" "extr_executive_info.pyc" "time_this.pyc" ".idea/" "company_shuf100000" "common_tools.pyc" "../" "index_org")
+
+ ("/home/hongziki/.emacs.d/" (22261 10348 943281 978000) "places" "auto-save-list/" "snippets/" "elpa/" ".emacs.bak" "./" "ido.last" ".gitignore" ".git/" "../" "ac-comphist.dat" "irony/" ".gitmodules" "backups/" "semanticdb/")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/rmfy_court/" (22260 46493 42179 770000) "__init__.py" "pra.py" "./" "../")
+
+ ("/home/hongziki/projects/git/task_relate/data_layout/apps/no_litigation/" (22260 38658 114312 587000) "no_litigation.py" "__init__.py" "no_litigation.pyc" "itslaw.py" "./" "__init__.pyc" "court_yard2.csv" "../")
+
+ ("/home/hongziki/task_relate/data_layout/doc/no_law/" (22259 25645 561569 383000) "readme.txt" "╬▐╦╧╜т╬Ў╧ъ╧╕╔ш╝╞.docx" "~$╦╧╜т╬Ў│╠╨Є╦╡├ў╬─╡╡.docx" "raw_doc" "╬▐╦╧╜т╬Ў│╠╨Є╦╡├ў╬─╡╡.docx" "itslaw_test" "[╩¤╛▌]3- ╬▐╦╧▓├┼╨╬─╩щ╩¤╛▌╨ш╟є╬─╡╡v1.0.docx" "qyxg_wscpws_2016021901.wscpws" "./" "[─г╨═]╞╒╗▌╖и╓╬ ─г╨═╦╡├ў╬─╡╡v1.0.docx" "court_yard2.csv" "../" "wusong2xb.py")
+
+ ("/home/hongziki/task_relate/data_layout/doc/" (22258 27475 544696 137000) "裁判文书字段统一需求文档V1.0-20160322.xlsx" "裁判文书诉讼数据解析需求文档（20150703）.docx" "案件起诉金额解析需求文档 20151110 v1.2.pdf" "no_law/" "./" "无讼解析部分.zip" "裁判文书-文书号解析需求_V1.01_20160315.pdf" "裁判文书字段统一需求文档V1.1-20160323.xlsx" "../")
+
+ ("/home/hongziki/task_relate/data_layout/" (22258 18978 29399 54000) "./" "../" "doc/")
+
+ ("/home/hongziki/task_relate/" (22258 18973 421580 475000) "data_layout/" "./" "soft_copyright/" "../")
+
+ ("/home/hongziki/projects/git/rmfygg_parser/app/" (22258 26325 182429 997000) "NickName.dat" "__init__.py" "pra.py" "ParseBase.py" "./" "ReasonStart.dat" "rmfygg_parser.py" "../")
+
+ ("/home/hongziki/projects/job/my_tools/" (22219 62726 291909 60000) "company_name_index_dict/" "./" ".idea/" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms_in_c/build/CMakeFiles/" (22255 48511 117851 62000) "cmake.check_cache" "CMakeTmp/" "TargetDirectories.txt" "feature_tests.c" "Makefile.cmake" "src.dir/" "CMakeDirectoryInformation.cmake" "feature_tests.bin" "./" "CMakeOutput.log" "feature_tests.cxx" "progress.marks" "../" "Makefile2" "3.2.2/")
+
+ ("/home/hongziki/projects/mytest/c++/" (22255 42452 348934 975000) "demos/" "./" "libsublime-imfix.so" "sublime_imfix.c" "tmp.cpp" "algorithms/" "algorithms_in_c/" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/src/" (22255 40168 809549 156000) "./" "main.c" "../" "a.c")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/" (22255 42242 934522 452000) "include/" "CMakeCache.txt" "cmake_install.cmake" "bin/" "CMakeLists.txt" "./" "CMakeFiles/" "build/" "Makefile" "src/" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/build/bin/" (22255 40436 22555 106000) "./" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/build/" (22255 40436 22555 106000) "bin/" "./" "../")
+
+ ("/tmp/build-irony-server-0.2.0/CMakeFiles/" (22255 39829 106296 155000) "NightlyTest.dir/" "cmake.check_cache" "NightlyMemoryCheck.dir/" "NightlyConfigure.dir/" "Nightly.dir/" "CMakeTmp/" "ContinuousBuild.dir/" "ContinuousMemCheck.dir/" "TargetDirectories.txt" "feature_tests.c" "ExperimentalMemCheck.dir/" "NightlyCoverage.dir/" "Makefile.cmake" "ExperimentalBuild.dir/" "ExperimentalSubmit.dir/" "ExperimentalConfigure.dir/" "ExperimentalTest.dir/" "#cmake.check_cache#" "NightlyMemCheck.dir/" "NightlySubmit.dir/" "CMakeDirectoryInformation.cmake" "Experimental.dir/" "ContinuousSubmit.dir/" "feature_tests.bin" "ContinuousUpdate.dir/" "ExperimentalUpdate.dir/" "ExperimentalStart.dir/" "./" "CMakeOutput.log" "ContinuousStart.dir/" ".#cmake.check_cache" "NightlyUpdate.dir/" "feature_tests.cxx" "progress.marks" "NightlyStart.dir/" "ExperimentalCoverage.dir/" "ContinuousCoverage.dir/" "NightlyBuild.dir/" "CMakeRuleHashes.txt" "ContinuousTest.dir/" "ContinuousConfigure.dir/" "../" "Continuous.dir/" "Makefile2" "3.2.2/")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms/test_math/include/" (22255 39718 253095 358000) "./" "../" "a.h")
+
+ ("/tmp/" (22255 39100 927653 473000) "tracker-extract-files.1000/" ".ICE-unix/" "build-irony-server-0.2.0/" ".font-unix/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-colord.service-Lh2myA/" "ssh-sGuXUeaK2iVP/" ".X11-unix/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-rtkit-daemon.service-7nSNHX/" "fcitx-socket-:1" "mendeley-desktop-1000.lock" ".XIM-unix/" ".com.google.Chrome.gIVSTJ/" ".Test-unix/" "config-err-xkEnpV" "hsperfdata_hongziki/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-systemd-timesyncd.service-GWdtg2/" "NutstoreTmp0xyz/" "../" "./")
+
+ ("/tmp/build-irony-server-0.2.0/" (22255 38041 34615 911000) "CMakeCache.txt" "DartConfiguration.tcl" "Testing/" "cmake_install.cmake" "bin/" "install_manifest.txt" "test/" "./" "CMakeFiles/" "docs/" "CTestTestfile.cmake" "Makefile" "src/" "../")
+
+ ("/home/hongziki/projects/mytest/c++/algorithms/" (22255 39528 733786 516000) "queue-link.cxx" "program-3-15.cpp" "test_math/" "avg_std" "stack_link.cxx" "program-4-19.cxx" "program-4-16.cxx" "program-4-17" "program-4-17.cxx" "UF.cxx" "list.h" "program-3-9.cpp" "stack.h" "avg_std.cpp" "sort.cxx" "program-3-15" "STACK.cxx" "./" "sort3" "sort3.o" "sort3.c" "program-3-9" "list.cpp" "sort" "../" "malloc2dArr.cpp")
 
  ("/home/hongziki/.emacs.d/elpa/" (22255 21781 651566 88000) "popup-20151222.1339/" "epc-20140609.2234/" "concurrent-20160109.2046/" "rtags-20160306.1546/" "deferred-20160109.2046/" "request-20160108.33/" "async-20160223.146/" "auto-complete-c-headers-readme.txt" "archives/" "auto-complete-20160229.1706/" "jedi-20151214.705/" "dash-20160223.1028/" "let-alist-1.0.4/" "elpy-readme.txt" "epl-20150517.433/" "auto-complete-exuberant-ctags-readme.txt" "elpy-20160131.118/" "flymake-google-cpplint-readme.txt" "auto-complete-clang-async-readme.txt" "auto-complete-c-headers-20150911.2023/" "flycheck-20160302.1046/" "swiper-20160115.800/" "pkg-info-20150517.443/" "gnupg/" "pyvenv-20160108.28/" "company-irony-20160317.1533/" "better-defaults-20160127.2318/" "websocket-20160227.2122/" "cmake-ide-20160227.115/" "seq-1.11/" "solarized-theme-20160106.15/" "./" "let-alist-1.0.4.signed" "ctable-20140304.1659/" "python-environment-20150310.153/" "cl-generic-0.2/" "flymake-google-cpplint-20140205.525/" "irony-20160317.1527/" "jedi-core-20151214.705/" "levenshtein-20051013.1056/" "google-c-style-20140929.1118/" "company-20160228.1705/" "flymake-easy-20140818.55/" "git-commit-20160130.649/" "yasnippet-20160104.129/" "find-file-in-project-20151216.1850/" "el-search-readme.txt" "with-editor-20160223.1155/" "seq-1.11.signed" "magit-20160302.322/" "auto-complete-chunk-readme.txt" "flymake-cursor-20130822.332/" "auto-complete-clang-20140409.52/" "highlight-indentation-20150307.208/" "iedit-20150915.2022/" "ein-20160203.2026/" "../" "py-autopep8-20151231.614/" "material-theme-20160302.1334/" "cl-generic-0.2.signed" "magit-popup-20160302.322/" "auto-complete-clang-readme.txt")
 
@@ -105,17 +275,9 @@
 
  ("/home/hongziki/projects/git/rmfygg_parser/data/" (22251 30387 421774 876000) "rmfygg" "erro_log.txt" "rmfygg_shuf1000" "rmfy_gengzheng" "rmfy_ret_bak" "ret2" "#content_left_mod1#" "./" "rmfy_ret" "rmfy_ret_all" "rmfygg_shuf10000" "rmfy_ret_bak1" "ret1" "../" "content_shrink" "附件2.企业相关信息解析需求文档.docx")
 
- ("/home/hongziki/projects/git/rmfygg_parser/app/" (22251 40732 979019 646000) "NickName.dat" "__init__.py" "pra.py" "ParseBase.py" "./" "ReasonStart.dat" "rmfygg_parser.py" "../")
-
- ("/home/hongziki/projects/mytest/c++/" (22247 50605 652908 832000) "demos/" "./" "libsublime-imfix.so" "sublime_imfix.c" "tmp.cpp" "algorithms/" "../")
-
  ("/home/hongziki/projects/git/higgs_parser/libs/" (22247 48472 306319 908000) "common_re.py" "./" "../")
 
- ("/home/hongziki/projects/job/job_note/count/yaojia/高级法院/" (22247 49854 488444 519000) "ktgg_all_shuf" "ktgg_es" "json_pra.py" "ktgg_all" "content_left_mod1_ret" "content_left_mod1" "Readme" "newktgg.txt" "Kpra.py" "#Kpra.py#" "model/" "ktgg_all_shuf_result" "ktgg_all_result" "./" "ktgg_es_result" "sample.json" "ktgg.txt" "read_ktgg.py" "rmfygg_shuf10000" "开庭公告（高院）解析详细设计文档(1).docx" "../" "zyktgg.txt" "Kpra.pyc" "newktgg_es")
-
  ("/home/hongziki/projects/git/higgs_parser/app/" (22247 49852 152496 614000) "rmfy_parser.py" "__init__.py" "pra.py" "./" "__init__.pyc" "ktgg_parser.py" "../" "rmfy_parse.py" "rmfy_parser.pyc")
-
- ("/home/hongziki/projects/job/job_note/" (22247 23729 309141 104000) "personal/" "gov_relate/" "ruanjianzhuzuoquan/" "bidding/" "需求/" "economic_index/" "./" "qqzone/" "relate_party/" "jiexi/" "tmp/" "xinhua08/" "../" "count/")
 
  ("/home/hongziki/projects/git/higgs_parser/" (22247 47373 72733 694000) "__init__.py" "Readme" "./" "__init__.pyc" "resource/" ".gitignore" "app/" ".git/" "../" "doc/" "libs/")
 
@@ -129,13 +291,9 @@
 
  ("/home/hongziki/projects/git/my_tools/my_git_tools/" (22247 34920 917228 339000) "./" "../")
 
- ("/home/hongziki/projects/git/my_tools/" (22247 34920 917228 339000) "my_git_tools/" "./" ".git/" "../")
-
  ("/home/hongziki/projects/job/higgs_addr/apps/" (22120 3822 0 0) "./" "addr_extr.py" "../")
 
  ("/home/hongziki/projects/job/higgs_addr/" (22102 56030 0 0) "data/" "./" ".idea/" "apps/" ".gitignore" ".git/" "../" "libs/")
-
- ("/home/hongziki/projects/job/economic_index/apps/" (22102 56008 0 0) "imp_extr.py" "tmp.py" "vocation.py" "extract_info.py" "vocation.data" "./" "pcd_list.data" "tmp" "../")
 
  ("/home/hongziki/projects/job/economic_index/" (22102 56012 0 0) "data/" "./" ".idea/" "apps/" ".gitignore" ".git/" "../" "libs/")
 
@@ -144,8 +302,6 @@
  ("/home/hongziki/projects/job/bidding/apps/" (22102 55886 0 0) "extract_info.py" "extract_info.pyc" "extr_org.py" "./" "prepare.py" "../" "extractor_module.py")
 
  ("/home/hongziki/projects/job/bidding/" (22102 55886 0 0) "Readme" "data/" "./" "result/" ".idea/" "docs/" "apps/" ".gitignore" "Readme.md" ".git/" "../" "libs/")
-
- ("/home/hongziki/projects/git/" (22247 34900 514964 620000) "my_tools/" "computing-engine/" "rmfygg_parser/" "higgs_parser/" "computing-engine.tar.bz2" "./" "bond_system/" "../")
 
  ("/home/hongziki/projects/git/rmfygg_parser/" (22242 37195 820836 514000) "data/" "./" ".idea/" ".gitignore" "app/" ".git/" "../")
 
@@ -164,48 +320,6 @@
  ("/home/hongziki/projects/git/bond_system/" (22187 2092 699701 966000) "__init__.py" "bond/" "risk/" "./" ".idea/" "tests/" "__init__.pyc" ".gitignore" ".git/" "../" "libs/")
 
  ("/home/hongziki/projects/job/proj_module/" (22102 56042 0 0) "py_file_module.py" "./" "shell_file_module.sh" ".gitignore" ".git/" "../")
-
- ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/jieba/posseg/" (22238 35553 710690 848000) "prob_start.pyc" "prob_emit.py" "prob_trans.py" "prob_start.p" "prob_emit.pyc" "char_state_tab.p" "char_state_tab.py" "__init__.py" "prob_trans.p" "prob_start.py" "./" "viterbi.py" "viterbi.pyc" "__init__.pyc" "prob_emit.p" "prob_trans.pyc" "../" "char_state_tab.pyc")
-
- ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/jieba/" (22238 35553 830683 687000) "_compat.pyc" "analyse/" "__init__.py" "_compat.py" "__main__.pyc" "dict.txt" "./" "__init__.pyc" "finalseg/" "__main__.py" "posseg/" "../")
-
- ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/" (22238 35553 838683 208000) "pep8.py" "importmagic/" "setuptools-18.4.dist-info/" "pip/" "importmagic-0.1.5-py2.7.egg-info/" "rope-0.10.3-py2.7.egg-info/" "pyflakes/" "autopep8.pyc" "yapf/" "jedi/" "yapftests/" "easy_install.pyc" "jedi-0.9.0.dist-info/" "pip-1.5.6.dist-info/" "pyflakes-1.0.0.dist-info/" "rope/" "flake8/" "mccabe.pyc" "flake8-2.5.4.dist-info/" "mccabe.py" "autopep8.py" "easy_install.py" "pkg_resources/" "./" "_markerlib/" "setuptools/" "autopep8-1.2.2-py2.7.egg-info/" "jieba-0.38-py2.7.egg-info/" "../" "yapf-0.6.3.dist-info/" "pep8-1.7.0.dist-info/" "pep8.pyc" "mccabe-0.4.0.dist-info/" "jieba/")
-
- ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/" (22238 12975 705285 557000) "sre_constants.pyc" "_abcoll.pyc" "warnings.py" "re.py" "site-packages/" "sre_compile.pyc" "_weakrefset.pyc" "orig-prefix.txt" "sre_constants.py" "os.py" "fnmatch.py" "sre_compile.py" "codecs.pyc" "copy_reg.py" "abc.pyc" "_weakrefset.py" "codecs.py" "encodings/" "site.pyc" "site.py" "sre_parse.py" "no-global-site-packages.txt" "distutils/" "abc.py" "sre.py" "os.pyc" "./" "genericpath.py" "locale.py" "lib-dynload/" "types.py" "warnings.pyc" "stat.py" "fnmatch.pyc" "types.pyc" "re.pyc" "sre_parse.pyc" "linecache.py" "posixpath.pyc" "UserDict.pyc" "stat.pyc" "copy_reg.pyc" "_abcoll.py" "locale.pyc" "linecache.pyc" "../" "genericpath.pyc" "ntpath.py" "posixpath.py" "UserDict.py")
-
- ("/home/hongziki/.virtualenvs/pyemacs/lib/" (22238 12975 645285 926000) "python-wheels/" "python2.7/" "./" "../")
-
- ("/home/hongziki/.virtualenvs/pyemacs/" (22238 12975 641285 950000) "include/" "local/" "bin/" "./" "lib/" "../")
-
- ("/home/hongziki/.virtualenvs/" (22238 12975 605286 171000) "initialize" "predeactivate" "prermvirtualenv" "postactivate" "postdeactivate" "premkvirtualenv" "premkproject" "get_env_details" "./" "postrmvirtualenv" "pyemacs/" "../" "postmkproject" "preactivate" "postmkvirtualenv")
-
- ("/home/hongziki/projects/job/job_note/count/yaojia/" (22213 33344 917484 854000) "json_pra.py" "高级法院/" "NickName.dat" "开庭公告解析祥设文档.docx" "中级法院/" "Readme" "fujian" "sample.dat" "./" "sample" ".idea/" "ReasonStart.dat" "Pra.py" "ktgg" "../")
-
- ("/home/hongziki/projects/job/job_note/count/" (22224 3972 762504 35000) "qyxg_es.zip" "开庭公告（高院）解析需求文档20150728.docx" "xgxx.zip" "开庭公告数据源0128.xlsx" "es/" "xgxx_es_2016_02_02.zip" "xgxx_hbase_2016_02_02.zip" "开庭公告格式.docx" "数据格式问题" "开庭公告板块数据整合需求V1.0 20151124.docx" "data/" "./" "yaojia/" "开庭公告Main优化解析二次测试.docx" "../" "开庭公告（中院）解析需求文档20150721.docx" "开庭公告Main内容解析优化测试结果.docx")
-
- ("/home/hongziki/projects/job/" (22219 47728 536807 186000) "xinhua.tar.bz2" "关于员工午餐就餐通知.docx" "my_tools/" "higgs_addr/" "shell_commons/" "管理平台+人力资源部+唐婷婷.docx" "bidding/" "economic_index/" "proj_module/" "./" "qqzone/" "relate_party/" "extr_executive_info/" "xinhua08/" "job_note/" "../" "stanford_segmenter_para/" "libs/")
-
- ("/home/hongziki/projects/mytest/c++/demos/my_program/my_inc/" (22237 6637 272674 982000) "myadd.h" "./" "myadd.cpp" "../")
-
- ("/home/hongziki/projects/mytest/c++/demos/my_program/src/" (22237 18298 368836 797000) "helper.cpp" "main.cpp" "helper.h" "./" "../")
-
- ("/home/hongziki/projects/mytest/python/" (22238 13353 391720 993000) "option_confirm.c" "noddy.so" "ktgg_es" "testp/" "datastructure/" "fujian" "noddy2.c" "newktgg.txt" "setup.py" "test.py~" "./" ".idea/" "option_confirm.so" "ktgg.txt" "read_ktgg.py" "noddy.c" "build/" "../" "test.py" "zyktgg.txt" "newktgg_es" "treelib/")
-
- ("/home/hongziki/emacspy/" (22238 8955 624486 236000) "include/" "local/" "bin/" "./" "lib/" "../")
-
- ("/home/hongziki/projects/mytest/c++/demos/" (22237 6236 982874 62000) "my_program/" "./" "../")
-
- ("/home/hongziki/projects/mytest/c++/demos/my_program/" (22237 6236 982874 62000) "my_inc/" "./" "src/" "../")
-
- ("/home/" (22137 25567 211495 591000) "./" "hongziki/" "../")
-
- ("/home/hongziki/.emacs.d/auto-save-list/" (22232 2400 782861 360000) "./" "../")
-
- ("/home/hongziki/.emacs.d/backups/" (22232 2179 605327 98000) "!home!hongziki!.emacs.d!elpa!ein-20160203.2026!ein-autoloads.el~" "!home!hongziki!.emacs.d!elpa!material-theme-20160302.1334!material-theme-autoloads.el~" "!home!hongziki!.emacs.d!elpa!magit-popup-20160302.322!magit-popup-autoloads.el~" "!home!hongziki!.emacs.d!elpa!py-autopep8-20151231.614!py-autopep8-autoloads.el~" "!home!hongziki!.emacs.d!elpa!flycheck-20160302.1046!flycheck-autoloads.el~" "!home!hongziki!.emacs.d!elpa!let-alist-1.0.4!let-alist-autoloads.el~" "!home!hongziki!.emacs.d!elpa!with-editor-20160223.1155!with-editor-autoloads.el~" "!home!hongziki!.emacs.d!elpa!async-20160223.146!async-autoloads.el~" "!home!hongziki!.emacs.d!elpa!seq-1.11!seq-autoloads.el~" "!home!hongziki!.emacs.d!elpa!magit-20160302.322!magit-autoloads.el~" "./" "!home!hongziki!.emacs.d!elpa!epl-20150517.433!epl-autoloads.el~" "!home!hongziki!.emacs.d!elpa!request-20160108.33!request-autoloads.el~" "!home!hongziki!.emacs.d!elpa!git-commit-20160130.649!git-commit-autoloads.el~" "../" "!home!hongziki!.emacs.d!elpa!pkg-info-20150517.443!pkg-info-autoloads.el~" "!home!hongziki!.emacs.d!elpa!websocket-20160227.2122!websocket-autoloads.el~" "!home!hongziki!.emacs.d!elpa!cl-generic-0.2!cl-generic-autoloads.el~")
-
- ("/home/hongziki/projects/mytest/" (22192 7667 656410 162000) "sklearnp/" "pypi_mirror/" "python/" "./" "untitled/" "c++/" "bandersnatchtest/" "../")
-
- ("/home/hongziki/projects/" (22141 696 898285 755000) "svn/" "./" "git/" "job/" "../" "mytest/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
