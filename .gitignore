@@ -3,3 +3,4 @@
 /irony
 /auto-save-list
 *.dat
+*.pyc
