@@ -2,6 +2,28 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/hongziki/projects/at_work/puhuifazhi2.0/" . "apps/")
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/baojianju/" . "dict/")
+ ("/home/hongziki/projects/open_sources/others/yasnippet-snippets/" . "python-mode/")
+ ("/home/hongziki/projects/open_sources/others/" . "yasnippet-snippets/")
+ ("/home/hongziki/projects/open_sources/" . "others/")
+ ("/home/hongziki/projects/at_home/my_tools/" . "elisp/")
+ ("/home/hongziki/projects/at_home/" . "my_tools/")
+ ("/home/hongziki/projects/at_work/qybgxx/" . "apps/")
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/" . "dicts/")
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/" . "newktgg/")
+ ("/home/hongziki/projects/open_sources/cpp/CRFPP058/example/" . "seg/")
+ ("/home/hongziki/tmp/gradle_init/src/main/java/com/bbd/" . "nlp/")
+ ("/home/hongziki/tmp/gradle_init/src/main/java/com/" . "bbd/")
+ ("/home/hongziki/tmp/gradle_init/src/main/java/" . "com/")
+ ("/home/hongziki/tmp/gradle_init/src/main/" . "java/")
+ ("/home/hongziki/tmp/gradle_init/src/" . "main/")
+ ("/home/hongziki/projects/at_work/tudi_parser/" . "apps/")
+ ("/home/hongziki/projects/at_work/guizhoubid/" . "apps/")
+ ("/home/hongziki/projects/at_work/data_layout/apps/" . "court_announce/")
+ ("/home/hongziki/projects/at_work/data_layout/" . "apps/")
+ ("/home/hongziki/projects/at_work/caipanwenshuV2/" . "apps/")
+ ("/home/hongziki/projects/at_work/" . "puhuifazhi2.0/")
  ("/home/hongziki/projects/git/learning/crf/" . "crf/")
  ("/home/hongziki/projects/git/learning/" . "crf/")
  ("/home/hongziki/projects/git/task_relate/qybgxx/" . "apps/")
@@ -34,7 +56,7 @@
  ("/home/hongziki/.virtualenvs/pyemacs/lib/" . "python2.7/")
  ("/home/hongziki/.virtualenvs/pyemacs/" . "lib/")
  ("/home/hongziki/.virtualenvs/" . "pyemacs/")
- ("/home/hongziki/" . "projects/")
+ ("/home/hongziki/" . ".virtualenvs/")
  ("/home/hongziki/projects/job/job_note/count/yaojia/" . "高级法院/")
  ("/home/hongziki/projects/job/job_note/count/" . "yaojia/")
  ("/home/hongziki/projects/job/job_note/" . "economic_index/")
@@ -48,16 +70,38 @@
  ("/" . "home/")
  ("/home/hongziki/.emacs.d/" . "auto-save-list/")
  ("/home/hongziki/projects/mytest/" . "python/")
- ("/home/hongziki/projects/" . "git/")
+ ("/home/hongziki/projects/" . "at_home/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/hongziki/"
+ "/home/hongziki/.virtualenvs/"
+ "/home/hongziki/projects/at_work/statistic_language_model/apps/"
+ "/home/hongziki/projects/at_home/my_tools/elisp/"
+ "/home/hongziki/projects/at_work/puhuifazhi2.0/"
+ "/home/hongziki/projects/at_work/puhuifazhi2.0/apps/"
+ "/home/hongziki/projects/at_work/information-extraction-xzq/baojianju/dict/"
+ "/home/hongziki/tmp/"
+ "/home/hongziki/projects/open_sources/others/yasnippet-snippets/python-mode/"
+ "/home/hongziki/projects/at_home/my_tools/shells/"
+ "/home/hongziki/projects/at_work/keyword_demo/data/"
+ "/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/dicts/"
+ "/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/data/"
+ "/home/hongziki/projects/at_work/qybgxx/apps/"
+ "/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/apps/"
+ "/home/hongziki/tools/"
+ "/home/hongziki/projects/at_work/data_layout/apps/court_announce/"
+ "/home/hongziki/tmp/gradle_init/src/main/java/com/bbd/nlp/"
+ "/home/hongziki/projects/at_work/tudi_parser/apps/"
+ "/home/hongziki/projects/at_work/guizhoubid/apps/"
+ "/home/hongziki/projects/at_work/data_layout/apps/bidding/"
+ "/home/hongziki/projects/at_work/caipanwenshuV2/apps/"
+ "/home/hongziki/mybin/"
  "/home/hongziki/projects/git/task_relate/qybgxx/"
  "/home/hongziki/projects/git/task_relate/qybgxx/apps/"
  "/home/hongziki/projects/git/task_relate/data_layout/libs/"
  "/home/hongziki/projects/git/task_relate/data_layout/"
- "/home/hongziki/"
  "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/hmmlearn/tests/"
  "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/hmmlearn/"
  "/home/hongziki/projects/git/task_relate/data_platform/"
@@ -81,51 +125,141 @@
  "/home/hongziki/projects/git/task_relate/data_layout/apps/dict/"
  "/home/hongziki/projects/job/proj_module/"
  "/home/hongziki/projects/git/my_tools/python/"
- "/home/hongziki/projects/git/task_relate/data_layout/data/"
- "/home/hongziki/projects/git/bond_system/libs/"
- "/home/hongziki/projects/git/task_relate/kunlun/apps/"
- "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/requests/"
- "/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/py2neo/"
- "/home/hongziki/projects/git/computing-engine/"
- "/home/hongziki/projects/git/task_relate/kunlun/"
- "/home/hongziki/projects/mytest/c++/algorithms_in_c/src/"
- "/home/hongziki/projects/git/bond_system/bond/"
- "/home/hongziki/projects/mytest/c++/algorithms/"
- "/home/hongziki/projects/git/task_relate/"
- "/home/hongziki/projects/mytest/c++/algorithms_in_c/"
- "/home/hongziki/projects/git/rmfygg_parser/app/"
- "/home/hongziki/projects/git/task_relate/data_layout/apps/biding/"
- "/home/hongziki/projects/git/task_relate/data_layout/apps/rmfy_court/"
- "/home/hongziki/projects/git/task_relate/data_layout/apps/no_litigation/"
- "/home/hongziki/projects/git/higgs_parser/"
- "/home/hongziki/projects/job/my_tools/company_name_index_dict/"
- "/home/hongziki/task_relate/data_layout/doc/no_law/"
- "/home/hongziki/projects/mytest/c++/algorithms_in_c/build/"
- "/home/hongziki/projects/mytest/c++/algorithms/test_math/"
- "/home/hongziki/projects/mytest/c++/algorithms/test_math/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "Readme"
- "parse_document.py"
- "fields_extractor.py"
- "gdxx_extractor.py"
- "bgxx_entry.py"
- "bgxx_entry_for_test.py"
- "address_extractor.py"
- "fields_scheduler.py"
- "punc_relate.py"
- "coding_relate.py"
+ ".emacs"
+ "postmkvirtualenv"
+ "test.py"
+ ".yas-setup.el"
+ "readme.md"
+ "main_entry.py"
+ "litigant.keyword"
+ "classmethod"
+ "create_py"
+ "create_lm.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/hongziki/projects/at_work/statistic_language_model/apps/" (22520 42805 218374 740000) "create_lm.pyc" "ngram_array.py" "custom_array.pyc" "create_lm.py" "../" "load_corpus.pyc" "./" "mkns_key_value.py" "ngram_array.pyc" "load_corpus.py" "preprocess.py" "preprocess.pyc" "count_ngram.py")
+
+ ("/home/hongziki/.virtualenvs/" (22470 32827 143180 301000) "get_env_details" "premkproject" "preactivate" "postdeactivate" "prermvirtualenv" "postmkproject" "tmp-dc68fd8f7c4d8bb6/" "tmp-1a5dcdcf1fcb95b5/" "predeactivate" "../" "postmkvirtualenv" "./" "postmkvirtualenv~" "pyemacs/" "postrmvirtualenv" "initialize" "premkvirtualenv" "postactivate")
+
+ ("/home/hongziki/" (22520 22387 537887 998000) ".xinputrc" "下载/" ".nutstore/" ".linuxmint/" ".thunderbird/" ".nvidia-settings-rc" ".nano/" ".nv/" "nutshare/" "图片/" ".android/" ".cert/" "tmp/" ".gradle/" ".cache/" "mybin/" ".bashrc" "shares/" ".bash_history" ".java/" "桌面/" "文档/" "公共的/" ".virtualenvs/" ".config/" ".lesshst" ".CLion2016.2/" ".mozilla/" "projects/" "音乐/" "../" ".emacs.d/" ".gphoto/" ".gksu.lock" ".IntelliJIdea2016.2/" ".PyCharm2016.2/" "tools/" ".Xauthority" "documents/" "模板/" ".sudo_as_admin_successful" ".icons/" "./" ".bash_logout" ".profile" ".adobe/" ".cinnamon/" ".themes/" ".kingsoft/" ".subversion/" ".dbus/" "svn/" "PycharmProjects/" ".local/" ".wiznote/" ".ipython/" ".sunpinyin/" ".ICEauthority" ".swt/" ".emacs" ".pki/" ".presage/" "IdeaProjects/" ".xsession-errors" ".wget-hsts" "programming_tools/" ".macromedia/" ".appcfg_nag" ".gnome/" ".gnupg/" ".ssh/" ".gconf/" ".gitconfig" ".dmrc" "视频/" "VirtualBox VMs/")
+
+ ("/home/hongziki/projects/at_work/statistic_language_model/" (22504 57311 992937 405000) ".git/" "tests/" "../" "apps/" "libs/" "data/" "dicts/" "./" "readme.md" ".gitignore" "doc/")
+
+ ("/home/hongziki/projects/at_work/" (22518 25428 772530 815000) "keyword_demo/" "tudi_parser/" "puhuifazhi2.0/" "information-extraction-xzq/" "guizhoubid/" "address_handler/" "statistic_language_model/" "../" "company_name_split/" "./" "company_name_split.tar.bz2" "caipanwenshuV2/" "qybgxx/" "data_layout/" "address_handler.tar.bz2")
+
+ ("/home/hongziki/projects/at_work/puhuifazhi2.0/apps/" (22509 56372 621720 343000) "numbers_utils.pyc" "number_trans.py.bak" "main_entry.py~" "defendant_base.pyc" "litigant_cri_reco.py" "numbers_utils.py" "indexing_dict.py" "parsing_ju_result.py" "defendant_sex_age.py" "defendant_sex_age.pyc" "criminal_parser.py" "../" "authenticate_org.py" "parsing_cothink.py" "dicts/" "parsing_cothink.pyc" "./" "main_entry.py" "parsing_litigant.py" "indexing_dict.pyc" "defendant_base.py" "criminal_parser.pyc" "fi_time.pyc" "litigant_place.py" "authenticate_org.pyc" "parsing_procedure.py" "fi_time.py" "parsing_body.py")
+
+ ("/home/hongziki/projects/open_sources/others/yasnippet-snippets/python-mode/" (22505 54524 728765 730000) "utf8" "static" "metaclass" "__enter__" "script" "str" "setup" "setdef" "assertNotIn" "with_statement" "__contains__" "return" "main" "arg" "repr" "self_without_dot" "init" "__exit__" "assertNotEqual" "cls" "assertFalse" "for" "trace" "__setitem__" "pass" "not_impl" "__new__" "with" "print" "assertRaises" "function" "self" "prop" "logger_name" "all" "classmethod" "../" "doctest" "tryelse" "class" "arg_positional" "ipdbdebug" "interact" "np" "import" "function_docstring_numpy" "celery_pdb" "while" "./" "dec" "init_docstring" "__len__" "method" "iter" "pl" "test_class" "logging" "assertEqual" "selfassign" "assertTrue" "parser" "assertRaises.with" "if" "parse_args" "scls" "deftest" "reg" "list" "super" "method_docstring" "ifmain" "try" "from" "django_test_class" "unicode" "doc" "ife" ".yas-setup.el" "assertIn" ".yas-parents" "test_file" "size" "eq" "__getitem__" "assert" "lambda" "function_docstring")
+
+ ("/home/hongziki/projects/at_home/my_tools/elisp/" (22498 9829 681310 870000) "../" "./" ".yas-setup.el")
+
+ ("/home/hongziki/projects/at_home/my_tools/" (22498 9803 50070 950000) ".git/" ".idea/" "cpps/" "../" "data/" "elisp/" "python/" "shells/" "./" "master" "geocoder/" ".gitignore" "java/")
+
+ ("/home/hongziki/projects/at_work/puhuifazhi2.0/" (22505 53159 915285 305000) ".git/" "../" "apps/" "data/" "dict/" "docs/" "./" "readme.md" ".gitignore" "test/")
+
+ ("/home/hongziki/tools/" (22504 31045 199426 136000) "freetype-2.6.5.tar.bz2" "VBoxGuestAdditions_5.0.24.iso" "mendeleydesktop_1.15.2-stable_amd64.deb" "wps-office_10.1.0.5672-a21_amd64.deb" "freetype-2.6.5/" "../" "openvpn/" "lulinux.com_font_rendering/" "pandoc-1.17.2-1-amd64.deb" "sogoupinyin_2.0.0.0078_amd64.deb" "./" "snapshot.sh" "freetype-2.6.1.tar.bz2" "XX-Net/" "bcompare-4.1.3.20814_amd64.deb" "nautilus_nutstore_amd64.deb" "sublime-text_build-3083_amd64.deb" "freetype-2.6.1/" "fontconfig-ultimate/" "freetype-2.6.tar.bz2")
+
+ ("/home/hongziki/projects/at_work/keyword_demo/data/" (22504 33235 959707 180000) "beijingbaojianju.txt" "../" "./")
+
+ ("/home/hongziki/projects/at_home/my_tools/shells/" (22497 64986 160228 918000) "git_dist.sh" "create_py" "../" "./" "create_sh" "xiong_kill_proc")
+
+ ("/home/hongziki/tmp/" (22504 60557 524613 106000) "gradlew.bat" "test1.tex" "qyxg_circxzcf.json" ".gradle/" "gradle/" "baojianju.ret" "rollback_importer.py" "sougou_corpus_test" "pandoctest.md" "formular.md" "../" "tes1.pdf" "test.cpp" "build.gradle" "test1.html" "news_tensite_xml.smarty.dat" "gradlew" "test.py" "./" "src/" "gradle_init/" "sougou_news.dat" "settings.gradle" "mytest/" "gradle_test/" "test1.md" "test1.pdf" "baojianju.tar.gz" "tes1.tex" "reloader.py" "news_tensite_xml.smarty.tar.gz")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/baojianju/dict/" (22499 22212 292977 380000) "litigant.keyword" "../" "./")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/baojianju/apps/" (22499 20564 599645 223000) "key_value_extractor.pyc" ".#punishment_parser.py" "../" "./" "punishment_parser.py" "key_value_extractor.py")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/" (22498 14964 295842 727000) "keyword_demo/" ".git/" "address_handler/" "../" "economic_index/" "extr_executive_info/" "company_name_split/" "./" "baojianju/" "caipanwenshuV2/" "data_layout/" "newktgg/" ".gitignore" "company_name_keyword_extractor/")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/baojianju/" (22498 18349 285983 304000) "tests/" "../" "apps/" "libs/" "data/" "dict/" "./" "doc/")
+
+ ("/home/hongziki/.emacs.d/elpa/elpy-20160131.118/snippets/python-mode/" (22498 11111 544682 625000) "__get__" "__pow__" "__del__" "__rand__" "enc" "__and__" "__abs__" "__rxor__" "__enter__" "__or__" "__nonzero__" "__truediv__" "__ior__" "__slots__" "__eq__" "__rshift__" "asne" "__index__" "__imul__" "__contains__" "__rmul__" "__iadd__" "__cmp__" "__coerce__" "__pos__" "__rdivmod__" "__imod__" "__exit__" "__oct__" "asr" "__str__" "env" ".yas-setup.elc" "__gt__" "__setitem__" "__new__" "ase" "__hex__" "__irshift__" "__rsub__" "__ipow__" "__add__" "__floordiv__" "__ror__" "../" "__int__" "class" "__lt__" "__complex__" "py3" "__itruediv__" "__delitem__" "__float__" "__rmod__" "__rfloordiv__" "__divmod__" "defs" "__set__" "./" "__le__" "__len__" "__mul__" "__ne__" "__setattr__" "__xor__" "__invert__" "__mod__" "__isub__" "__rpow__" "__div__" "__sub__" "__rrshift__" "__lshift__" "__ilshift__" "__neg__" "__bool__" "__long__" "__ge__" "__ifloordiv__" "super" "__idiv__" "__iter__" "__reversed__" "from" "__unicode__" "__instancecheck__" "__radd__" "__init__" ".yas-setup.el" "__delete__" "__rtruediv__" "__hash__" "__ixor__" "__repr__" "pdb" "__rlshift__" "__call__" "__getitem__" "__subclasscheck__" "__getattr__" "__getattribute__" "__delattr__" "__iand__")
+
+ ("/home/hongziki/projects/open_sources/others/yasnippet-snippets/" (22498 6170 702303 945000) "ruby-mode/" "conf-unix-mode/" "elixir-mode/" "yaml-mode/" "makefile-bsdmake-mode/" "makefile-mode/" ".git/" "groovy-mode/" "erc-mode/" "clojure-mode/" "html-mode/" "css-mode/" ".nosearch" "applescript-mode/" "csharp-mode/" "chef-mode/" "nxml-mode/" "typerex-mode/" "dix-mode/" "lisp-mode/" "enh-ruby-mode/" "latex-mode/" "CONTRIBUTORS.txt" "rust-mode/" "snippet-mode/" "makefile-gmake-mode/" "js2-mode/" "makefile-automake-mode/" "sql-mode/" "erlang-mode/" "nesc-mode/" "js-mode/" "antlr-mode/" "faust-mode/" "../" "cc-mode/" "text-mode/" "ned-mode/" "git-commit-mode/" "go-mode/" "tuareg-mode/" "emacs-lisp-mode/" "ensime-mode/" "sh-mode/" "java-mode/" "LICENSE" "README.md" "c-mode/" "./" "org-mode/" "web-mode/" "rename_add_contr.py" "m4-mode/" "nsis-mode/" "cperl-mode/" "c++-mode/" "udev-mode/" "scala-mode/" "octave-mode/" "cider-repl-mode/" "cmake-mode/" "python-mode/" "f90-mode/" "cpp-omnet-mode/" "perl-mode/" ".gitignore" "markdown-mode/" "prog-mode/" "nix-mode/" "lua-mode/" "js3-mode/" "rst-mode/" "lisp-interaction-mode/" "malabar-mode/" "haskell-mode/")
+
+ ("/home/hongziki/projects/open_sources/others/" (22498 6245 84502 757000) "yasnippet-snippets/" "../" "./")
+
+ ("/home/hongziki/projects/open_sources/" (22498 6245 84502 757000) "CoreNLP/" "../" "cpp/" "python/" "./" "others/" "corpus/" "java/")
+
+ ("/home/hongziki/projects/at_home/my_tools/python/" (22486 10334 682325 30000) "Readme" "time_this.py" "py_file_module.py" "dict_wrapper.py" "numbers_utils.py" "indexing_dict.py" "time_this.pyc" "package_setup.py" "../" "setup.py" "./" "indexing_dict.pyc" "common_tools.py" "brackets_handler.py" "key_value_extractor.py" "logging_util/" "common_tools.pyc" "coding_relate.py" "string_relate/")
+
+ ("/home/hongziki/projects/at_home/" (22494 15700 562224 468000) "ltp_data/" "ltp-data-v3.3.1.tar.bz2" "CoreNLP/" "bbdlm/" "../" "stanford_segmenter/" "my_tools/" "./" "stanford_segmenter.tar.bz2" "nertools/")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/apps/" (22487 26670 788726 873000) "dict_wrapper.py" "shanxihanzhong_extractor.py" "extract_sentence.py" "extract_base.py" "../" "scheduler.py" "./" "main_entry.py" "extract_base.pyc" "sentence_extractor.py" "key_value_extractor.py")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/data/" (22487 22623 563833 343000) "../" "./")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/dicts/" (22487 26488 630116 72000) "../" "./" "ktgg_hanzhong.keyvalue" "schedule.map")
+
+ ("/home/hongziki/projects/at_work/keyword_demo/" (22486 28969 375492 528000) ".git/" "work.words" "keyword.py" "city" "sample~" "keyword.py~" "../" "data/" "keyword.pyc" "sample" "new.work.words~" "./" "out/" "dafei_ningxia_company_list_20160809.data" ".~lock.宁夏地区打非平台监管企业名单.csv#" "yisi_graph_keyword.py" "city~" "1gram.words" "2gram.words" ".gitignore" "new.work.words" "dafei_keyword.py" "keyword_combination.py")
+
+ ("/home/hongziki/projects/at_work/information-extraction-xzq/newktgg/" (22487 22623 567833 229000) "../" "apps/" "data/" "dicts/" "./")
+
+ ("/home/hongziki/projects/at_work/qybgxx/apps/" (22479 30105 10101 28000) "comname_extractor.py" "frname_extractor.pyc" "fields_scheduler.py" "scope_extractor.pyc" "openfrom_extractor.py" "parse_document_for_english_key.py" "frname_extractor.py" "parentfirm_extractor.py" "realcap_extractor.py" "comtype_extractor.pyc" "regcap_extractor.pyc" "coding_relate.pyc" "gdxx_extractor.py" "esdate_extractor.pyc" "period_extractor.py" "bgxx_entry_for_test.py" "regcap_extractor.py" "parse_document_for_english_key.pyc" "fields_scheduler.pyc" "parse_document.pyc" "hongmei_test.py" "invcap_extractor.pyc" "esdate_extractor.py" "测试案例.txt" "regorg_extractor.pyc" "../" "regno_extractor.pyc" "key_fields_name.py" "parse_document.py" "bgxx_entry.py" "__init__.pyc" "regcapcur_extractor.py" "credit_extractor.pyc" "comname_extractor.pyc" "regcapcur_extractor.pyc" "openfrom_extractor.pyc" "regno_extractor.py" "./" "invcap_extractor.py" "opento_extractor.pyc" "address_extractor.pyc" "address_extractor.py" "realcap_extractor.pyc" "regorg_extractor.py" "key_fields_name.pyc" "opento_extractor.py" "__init__.py" "baxx_extractor.py" "fields_extractor.pyc" "parentfirm_extractor.pyc" "credit_extractor.py" "comtype_extractor.py" "gdxx_extractor.pyc" "coding_relate.py" "baxx_extractor.pyc" "period_extractor.pyc" "fields_extractor.py" "scope_extractor.py")
+
+ ("/home/hongziki/projects/at_work/qybgxx/" (22479 30105 10101 28000) ".git/" "../" "apps/" "__init__.pyc" "libs/" "./" "readme.md" ".gitignore" "__init__.py")
+
+ ("/home/hongziki/projects/at_work/data_layout/apps/court_announce/" (22453 30275 29574 0) "pra.py" "Kpra.pyc" "read_ktgg.py" "../" "__init__.pyc" "pra.pyc" "./" "json_pra.py" "__init__.py" "Kpra.py")
+
+ ("/home/hongziki/projects/open_sources/cpp/CRFPP058/" (22473 17573 127164 651000) "aclocal.m4" "install-sh" "feature_index.lo" "include/" "missing" "encoder.cpp" "encoder.h" "COPYING" "stream_wrapper.h" ".idea/" "example/" "feature_cache.cpp" "feature.lo" "feature_cache.lo" "lbfgs.h" "INSTALL" "tagger.h" "encoder.lo" "thread.h" "perl/" "lbfgs.lo" "lbfgs.cpp" "param.lo" "libcrfpp.lo" "tagger.cpp" "configure.in" "crf_test" "path.o" "mmap.h" "crf_learn.cpp" "param.o" "winmain.h" "Makefile.msvc.in" "config.sub" "param.h" "libtool" "config.h.in" "node.cpp" "../" "config.log" "crf_test.o" "NEWS" "feature.o" "CMakeLists.txt" "ChangeLog" "configure" "feature_cache.h" "path.h" "python/" "crf_learn.o" "tagger.lo" "timer.h" "crfpp.h" "./" "AUTHORS" "feature_cache.o" "lib/" "mkinstalldirs" "stamp-h1" "feature_index.cpp" "path.cpp" "node.o" "scoped_ptr.h" ".libs/" "sdk/" "crf_learn" "feature_index.o" "param.cpp" "tagger.o" "ltmain.sh" "node.h" "Makefile.am" "config.guess" "common.h" "lbfgs.o" "bin/" "darts.h" "feature_index.h" "doc/" "swig/" "Makefile.msvc" "libcrfpp.la" "freelist.h" "Makefile" "config.h" "crf_test.cpp" "README" "merge-models.pl" "java/" "libcrfpp.o" "path.lo" "ruby/" "config.status" "depcomp" "node.lo" "feature.cpp" "libcrfpp.cpp" "Makefile.in" "encoder.o")
+
+ ("/home/hongziki/projects/open_sources/cpp/" (22473 14175 909475 819000) "../" "CRF++-0.58.tar.gz" "./" "CRFPP058/")
+
+ ("/home/hongziki/projects/open_sources/cpp/CRFPP058/example/seg/" (20762 25189 0 0) "template" "../" "exec.sh" "./" "test.data" "train.data")
+
+ ("/home/hongziki/projects/open_sources/cpp/CRFPP058/example/" (20762 25189 0 0) "../" "basenp/" "./" "seg/" "JapaneseNE/" "chunking/")
+
+ ("/home/hongziki/projects/open_sources/cpp/CRF++-0.58/" (22473 11038 55340 103000) "aclocal.m4" "install-sh" "feature_index.lo" "missing" "encoder.cpp" "encoder.h" "COPYING" "stream_wrapper.h" ".idea/" "example/" "feature_cache.cpp" "feature.lo" "feature_cache.lo" "lbfgs.h" "INSTALL" "tagger.h" "encoder.lo" "thread.h" "perl/" "lbfgs.lo" "lbfgs.cpp" "param.lo" "libcrfpp.lo" "tagger.cpp" "configure.in" "crf_test" "path.o" "mmap.h" "crf_learn.cpp" "param.o" "winmain.h" "Makefile.msvc.in" "config.sub" "param.h" "libtool" "config.h.in" "node.cpp" "../" "config.log" "crf_test.o" "NEWS" "feature.o" "CMakeLists.txt" "ChangeLog" "configure" "feature_cache.h" "path.h" "python/" "crf_learn.o" "tagger.lo" "timer.h" "crfpp.h" "./" "AUTHORS" "feature_cache.o" "mkinstalldirs" "stamp-h1" "feature_index.cpp" "path.cpp" "node.o" "scoped_ptr.h" ".libs/" "sdk/" "crf_learn" "feature_index.o" "param.cpp" "tagger.o" "ltmain.sh" "node.h" "Makefile.am" "config.guess" "common.h" "lbfgs.o" "darts.h" "feature_index.h" "doc/" "swig/" "Makefile.msvc" "libcrfpp.la" "freelist.h" "Makefile" "config.h" "crf_test.cpp" "README" "merge-models.pl" "java/" "libcrfpp.o" "path.lo" "ruby/" "config.status" "depcomp" "node.lo" "feature.cpp" "libcrfpp.cpp" "Makefile.in" "encoder.o")
+
+ ("/home/hongziki/mybin/" (22471 54838 662602 140000) "my_git_.sh" "ssh_ml1" "git_dist.sh" "create_py" "ssh_gpu1" "../" "scp_ml1" "./" "create_sh" "scp_gpu1" "xiong_kill_proc")
+
+ ("/home/hongziki/projects/at_work/caipanwenshuV2/apps/" (22471 55070 783411 46000) "history_case.py" "extract_doc_type.pyc" "doc_category_re.pyc" "caseCode_map.py" "extractor.py" "extract_law.py" "indexing_dict.py" "history_case.pyc" "caseCode_map.pyc" "../" "__init__.pyc" "judge.pyc" "main_entry.pyc" "doc_category_re.py" "InclusiveLegalSystem_Judgements.py" "dict/" "./" "wrong_doc.py" "InclusiveLegalSystem_Judgements.pyc" "judge.py" "indexing_dict.pyc" "extract_law.pyc" "extract_doc_type.py" "__init__.py" "wrong_doc.pyc" "extractor.pyc" "__init__.py.bak" "doc_normalization.py" "doc_normalization.pyc")
+
+ ("/home/hongziki/projects/at_work/data_layout/apps/bidding/" (22470 31266 485201 713000) "extr_m.pyc" "indexing_dict.py" "../" "__init__.pyc" "biddingagency_m.py" "extr_org.py" "./" "extr_m.py" "indexing_dict.pyc" "__init__.py" "biddingagency_m.pyc" "extr_org.pyc")
+
+ ("/home/hongziki/projects/at_work/guizhoubid/apps/" (22470 21838 375673 499000) "extr_m.pyc" "proj_no_extractor.pyc" "../" "source_fund.py" "__init__.pyc" "biddingagency_m.py" "extr_org.py" "proj_no.dat" "./" "extr_m.py" "source_fund.dat" "proj_no_extractor.py" "source_fund.pyc" "__init__.py" "biddingagency_m.pyc" "extr_org.pyc")
+
+ ("/home/hongziki/projects/at_work/tudi_parser/apps/" (22470 43539 891142 681000) "dict_wrapper.py" "tddk_parser.py" "../" "__init__.pyc" "dict_wrapper.pyc" "main_entry.pyc" "./" "main_entry.py" "__init__.py" "tddk_parser.pyc")
+
+ ("/home/hongziki/tmp/gradle_init/src/main/java/com/bbd/nlp/" (22471 50692 384060 110000) "../" "./" "Main.java")
+
+ ("/home/hongziki/tmp/gradle_init/src/main/java/com/bbd/" (22471 41010 812542 788000) "nlp/" "../" "./")
+
+ ("/home/hongziki/tmp/gradle_init/src/main/java/com/" (22471 41010 812542 788000) "../" "bbd/" "./")
+
+ ("/home/hongziki/tmp/gradle_init/src/main/java/" (22471 42748 615145 447000) "com/" "../" "./")
+
+ ("/home/hongziki/tmp/gradle_init/src/main/" (22471 42739 743396 143000) "../" "./" "java/")
+
+ ("/home/hongziki/tmp/gradle_init/src/" (22471 42748 615145 447000) "main/" "../" "./")
+
+ ("/home/hongziki/tmp/gradle_init/" (22471 50135 95017 834000) "gradlew.bat" "build/" ".gradle/" "gradle/" "../" "build.gradle" "libs/" "gradlew" "./" "src/" "settings.gradle")
+
+ ("/home/" (22466 25867 179781 285000) "../" "./" "hongziki/")
+
+ ("/home/hongziki/projects/at_work/tudi_parser/" (22470 30346 532802 384000) ".git/" "tests/" "../" "apps/" "data/" "docs/" "./" ".gitignore")
+
+ ("/home/hongziki/projects/at_work/data_layout/tests/" (22470 31284 36678 911000) "test_bidding.pyc" "test_bidding.py" "test_bidding.py~" "cpws.raw" "zhaobiao.raw" "test_puhuifazhi.py" "../" "__init__.pyc" "test.py" "dataplatformc/" "ktgg.raw" "zyktgg.raw" "./" "BBDGetCompanys_Client/" "test_judgement.py" "__init__.py" "puhuifazhi.raw" "test.pyc" "zhaobiao.raw.ret" "test_ktgg.py" "itslaw.raw")
+
+ ("/home/hongziki/projects/at_work/guizhoubid/" (22427 1246 949505 0) ".git/" "../" "apps/" "__init__.pyc" "libs/" "data/" "docs/" "./" ".gitignore" "__init__.py" "test/")
+
+ ("/home/hongziki/projects/at_work/data_layout/apps/" (22314 49696 315431 0) "judgement/" "puhuifazhi/" "../" "__init__.pyc" "court_announce/" "dict/" "./" "rmfy_court/" "bidding/" "__init__.py")
+
+ ("/home/hongziki/projects/at_work/data_layout/" (22349 7474 235375 0) ".git/" "Readme" ".idea/" "tests/" "../" "apps/" "__init__.pyc" "libs/" "data/" "./" ".gitignore" "__init__.py" "doc/")
+
+ ("/home/hongziki/projects/at_work/caipanwenshuV2/" (22469 17090 979097 188000) ".git/" "Readme" ".idea/" "tests/" "../" "apps/" "__init__.pyc" "libs/" "data/" "./" ".gitignore" "__init__.py" "doc/")
+
+ ("/home/hongziki/projects/" (22469 15167 941844 693000) "at_home/" "open_sources/" "../" "at_work/" "./")
+
  ("/home/hongziki/projects/git/task_relate/qybgxx/apps/" (22365 7462 736298 856000) "coding_relate.pyc" "bgxx_entry_for_test.py" "parse_document.pyc" "comtype_extractor.pyc" "openfrom_extractor.pyc" "regno_extractor.pyc" "key_fields_name.py" "key_fields_name.pyc" "realcap_extractor.pyc" "fields_scheduler.py" "gdxx_extractor.pyc" "regcapcur_extractor.pyc" "regorg_extractor.py" "scope_extractor.py" "regcapcur_extractor.py" "coding_relate.py" "fields_extractor.pyc" "realcap_extractor.py" "parentfirm_extractor.py" "regno_extractor.py" "address_extractor.py" "credit_extractor.py" "scope_extractor.pyc" "fields_scheduler.pyc" "baxx_extractor.pyc" "fields_extractor.py" "parse_document.py" "invcap_extractor.py" "esdate_extractor.pyc" "credit_extractor.pyc" "bgxx_entry.py" "opento_extractor.py" "period_extractor.py" "./" "esdate_extractor.py" "period_extractor.pyc" "comname_extractor.pyc" "gdxx_extractor.py" "frname_extractor.py" "invcap_extractor.pyc" "regorg_extractor.pyc" "regcap_extractor.pyc" "frname_extractor.pyc" "regcap_extractor.py" "openfrom_extractor.py" "opento_extractor.pyc" "../" "baxx_extractor.py" "comtype_extractor.py" "comname_extractor.py" "address_extractor.pyc" "parentfirm_extractor.pyc")
 
  ("/home/hongziki/projects/git/task_relate/qybgxx/" (22357 9390 149336 373000) "Readme" "./" "apps/" ".gitignore" ".git/" "../" "libs/")
-
- ("/home/hongziki/" (22359 26985 767857 127000) ".xinputrc" "tools/" ".gnome/" ".bash_logout" ".pki/" ".gitconfig" ".emacs~" ".spark_history" ".kingsoft/" ".nano/" ".gem/" ".sbt/" "图片/" ".appcfg_nag" ".virtualenvs/" ".aptitude/" "documents/" ".cache/" ".PyCharm50/" ".nvidia-settings-rc" "文档/" ".vim/" ".goldendict/" ".dia/" ".bash_history" "projects/" ".viminfo" "programming/" ".pip/" ".vimrc" "音乐/" ".wiznote/" ".python_history" ".ivy2/" "桌面/" ".dbus/" ".oracle_jre_usage/" ".neo4j_shell_history" ".gvfs/" "下载/" ".mozilla/" ".local/" "公共的/" ".nv/" "./" ".ICEauthority" ".gconf/" ".subversion/" ".ssh/" ".profile" ".java/" ".gnupg/" ".kde/" ".Xauthority" ".presage/" ".emacs.d/" ".ipython/" "tmp/" ".config/" ".sudo_as_admin_successful" "../" ".emacs" ".m2/" "视频/" ".sunpinyin/" "模板/" ".swt/" ".nutstore/" ".bashrc" ".thunderbird/")
 
  ("/home/hongziki/projects/git/task_relate/" (22349 7669 746337 272000) "data_layout/" "kunlun/" "data_layout.egg-info/" "qybgxx/" "setup.py" "data_platform/" "dist/" "./" "puhuifazhi/" "../")
 
@@ -163,8 +297,6 @@
 
  ("/home/hongziki/projects/git/task_relate/data_layout/apps/bidding/" (22332 13653 692695 961000) "extr_m.pyc" "extr_m.py" "__init__.py" "indexing_dict.pyc" "extr_org.py" "./" "indexing_dict.py" "__init__.pyc" "biddingagency_m.pyc" "biddingagency_m.py" "../" "extr_org.pyc")
 
- ("/home/" (22137 25567 211495 591000) "./" "hongziki/" "../")
-
  ("/home/hongziki/projects/mytest/python/" (22330 61224 989899 272000) "option_confirm.c" "noddy.so" "ktgg_es" "suffix_tree.md" "ukkonen 后缀树算法.docx" "string_sim.py" "gen_suffix_trees.py" "suffix_tree.py" "ukkonon_suffix_tree.py" "testp/" "datastructure/" "fujian" "jarowinkler_sim.py" "noddy2.c" "newktgg.txt" "setup.py" "test.py~" "#ukkonon_suffix_tree.py#" "mathtest.md" "pandoc_test/" "./" ".idea/" "option_confirm.so" "ktgg.txt" "read_ktgg.py" "singleton.py" "noddy.c" "build/" "read_title_cpwsw.py" "imp_jaro_sim.py" "../" "test.py" "zyktgg.txt" "newktgg_es" "treelib/")
 
  ("/home/hongziki/projects/git/task_relate/puhuifazhi/" (22293 39752 7018 834000) "./" "apps/" ".gitignore" ".git/" "../" "doc/")
@@ -182,8 +314,6 @@
  ("/home/hongziki/projects/data_ana/court_ann/" (22307 3006 236829 422000) "ana.py" "ukkonon_suffix_tree.py" "dat" "keyword.word" "ukkonon_suffix_tree.pyc" "case.csv" "zyktgg" "keyword.dict" "./" "ktgg" "imp_jaro_sim.py" "short_sim.py" "../" "dict_gen.py" "short_sim.pyc")
 
  ("/home/hongziki/projects/git/webapi/templates/" (22306 48222 369457 188000) "help.html" "./" "../")
-
- ("/home/hongziki/projects/" (22305 34716 325882 673000) "svn/" "./" "data_ana/" "git/" "job/" "../" "mytest/")
 
  ("/home/hongziki/projects/mytest/" (22192 7667 656410 162000) "sklearnp/" "pypi_mirror/" "python/" "./" "untitled/" "c++/" "bandersnatchtest/" "../")
 
@@ -207,119 +337,11 @@
 
  ("/home/hongziki/.virtualenvs/pyemacs/" (22240 55369 623831 487000) "include/" "local/" "share/" "bin/" "./" "lib/" "../")
 
- ("/home/hongziki/.virtualenvs/" (22268 32019 398597 981000) "initialize" "predeactivate" "prermvirtualenv" "postactivate" "postdeactivate" "premkvirtualenv" "premkproject" "get_env_details" "./" "postrmvirtualenv" "pyemacs/" "../" "postmkproject" "preactivate" "postmkvirtualenv")
-
  ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/py2neo/" (22268 34042 354998 262000) "__init__.py" "packages/" "util.py" "./" "compat.pyc" "database/" "ext/" "types.py" "__init__.pyc" "types.pyc" "util.pyc" "../" "compat.py")
 
  ("/home/hongziki/.virtualenvs/pyemacs/lib/python2.7/site-packages/py2neo/database/" (22269 57361 472918 165000) "auth.pyc" "cypher.py" "__init__.py" "auth.py" "cypher.pyc" "http.pyc" "./" "http.py" "status.py" "__init__.pyc" "../" "status.pyc")
 
  ("/home/hongziki/projects/git/task_relate/kunlun/" (22268 31488 273518 468000) "./" "apps/" ".gitignore" ".git/" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms_in_c/src/" (22267 32684 132459 132000) "tree.c" "CMakeLists.txt" "./" "main.c" "link_list.c" "graph.c" "stack.c" "../" "geometric.c")
-
- ("/home/hongziki/projects/mytest/c++/algorithms_in_c/build/" (22265 57297 588993 914000) "CMakeCache.txt" "cmake_install.cmake" "bin/" "./" "compile_commands.json" "CMakeFiles/" "Makefile" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms_in_c/" (22265 57170 504479 374000) "bin/" "CMakeLists.txt" "./" ".gitignore" "build/" ".git/" "src/" "../" "doc/")
-
- ("/home/hongziki/projects/git/my_tools/" (22264 57547 580260 174000) "cpps/" "master" "python/" "data/" "./" ".idea/" ".gitignore" ".git/" "../" "shells/")
-
- ("/home/hongziki/projects/git/task_relate/data_layout/apps/biding/" (22262 24085 910170 621000) "extr_m.pyc" "extr_m.py" "__init__.py" "extr_org.py" "./" "__init__.pyc" "biddingagency_m.pyc" "biddingagency_m.py" "../" "extr_org.pyc")
-
- ("/home/hongziki/projects/job/my_tools/company_name_index_dict/" (22262 15513 610629 49000) "common_tools.py" "word_cnt" "time_this.py" "company_shuf10000" "company_list_shuf" "extr_executive_info.py" "./" "extr_executive_info.pyc" "time_this.pyc" ".idea/" "company_shuf100000" "common_tools.pyc" "../" "index_org")
-
- ("/home/hongziki/.emacs.d/" (22261 10348 943281 978000) "places" "auto-save-list/" "snippets/" "elpa/" ".emacs.bak" "./" "ido.last" ".gitignore" ".git/" "../" "ac-comphist.dat" "irony/" ".gitmodules" "backups/" "semanticdb/")
-
- ("/home/hongziki/projects/git/task_relate/data_layout/apps/rmfy_court/" (22260 46493 42179 770000) "__init__.py" "pra.py" "./" "../")
-
- ("/home/hongziki/projects/git/task_relate/data_layout/apps/no_litigation/" (22260 38658 114312 587000) "no_litigation.py" "__init__.py" "no_litigation.pyc" "itslaw.py" "./" "__init__.pyc" "court_yard2.csv" "../")
-
- ("/home/hongziki/task_relate/data_layout/doc/no_law/" (22259 25645 561569 383000) "readme.txt" "╬▐╦╧╜т╬Ў╧ъ╧╕╔ш╝╞.docx" "~$╦╧╜т╬Ў│╠╨Є╦╡├ў╬─╡╡.docx" "raw_doc" "╬▐╦╧╜т╬Ў│╠╨Є╦╡├ў╬─╡╡.docx" "itslaw_test" "[╩¤╛▌]3- ╬▐╦╧▓├┼╨╬─╩щ╩¤╛▌╨ш╟є╬─╡╡v1.0.docx" "qyxg_wscpws_2016021901.wscpws" "./" "[─г╨═]╞╒╗▌╖и╓╬ ─г╨═╦╡├ў╬─╡╡v1.0.docx" "court_yard2.csv" "../" "wusong2xb.py")
-
- ("/home/hongziki/task_relate/data_layout/doc/" (22258 27475 544696 137000) "裁判文书字段统一需求文档V1.0-20160322.xlsx" "裁判文书诉讼数据解析需求文档（20150703）.docx" "案件起诉金额解析需求文档 20151110 v1.2.pdf" "no_law/" "./" "无讼解析部分.zip" "裁判文书-文书号解析需求_V1.01_20160315.pdf" "裁判文书字段统一需求文档V1.1-20160323.xlsx" "../")
-
- ("/home/hongziki/task_relate/data_layout/" (22258 18978 29399 54000) "./" "../" "doc/")
-
- ("/home/hongziki/task_relate/" (22258 18973 421580 475000) "data_layout/" "./" "soft_copyright/" "../")
-
- ("/home/hongziki/projects/git/rmfygg_parser/app/" (22258 26325 182429 997000) "NickName.dat" "__init__.py" "pra.py" "ParseBase.py" "./" "ReasonStart.dat" "rmfygg_parser.py" "../")
-
- ("/home/hongziki/projects/job/my_tools/" (22219 62726 291909 60000) "company_name_index_dict/" "./" ".idea/" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms_in_c/build/CMakeFiles/" (22255 48511 117851 62000) "cmake.check_cache" "CMakeTmp/" "TargetDirectories.txt" "feature_tests.c" "Makefile.cmake" "src.dir/" "CMakeDirectoryInformation.cmake" "feature_tests.bin" "./" "CMakeOutput.log" "feature_tests.cxx" "progress.marks" "../" "Makefile2" "3.2.2/")
-
- ("/home/hongziki/projects/mytest/c++/" (22255 42452 348934 975000) "demos/" "./" "libsublime-imfix.so" "sublime_imfix.c" "tmp.cpp" "algorithms/" "algorithms_in_c/" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms/test_math/src/" (22255 40168 809549 156000) "./" "main.c" "../" "a.c")
-
- ("/home/hongziki/projects/mytest/c++/algorithms/test_math/" (22255 42242 934522 452000) "include/" "CMakeCache.txt" "cmake_install.cmake" "bin/" "CMakeLists.txt" "./" "CMakeFiles/" "build/" "Makefile" "src/" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms/test_math/build/bin/" (22255 40436 22555 106000) "./" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms/test_math/build/" (22255 40436 22555 106000) "bin/" "./" "../")
-
- ("/tmp/build-irony-server-0.2.0/CMakeFiles/" (22255 39829 106296 155000) "NightlyTest.dir/" "cmake.check_cache" "NightlyMemoryCheck.dir/" "NightlyConfigure.dir/" "Nightly.dir/" "CMakeTmp/" "ContinuousBuild.dir/" "ContinuousMemCheck.dir/" "TargetDirectories.txt" "feature_tests.c" "ExperimentalMemCheck.dir/" "NightlyCoverage.dir/" "Makefile.cmake" "ExperimentalBuild.dir/" "ExperimentalSubmit.dir/" "ExperimentalConfigure.dir/" "ExperimentalTest.dir/" "#cmake.check_cache#" "NightlyMemCheck.dir/" "NightlySubmit.dir/" "CMakeDirectoryInformation.cmake" "Experimental.dir/" "ContinuousSubmit.dir/" "feature_tests.bin" "ContinuousUpdate.dir/" "ExperimentalUpdate.dir/" "ExperimentalStart.dir/" "./" "CMakeOutput.log" "ContinuousStart.dir/" ".#cmake.check_cache" "NightlyUpdate.dir/" "feature_tests.cxx" "progress.marks" "NightlyStart.dir/" "ExperimentalCoverage.dir/" "ContinuousCoverage.dir/" "NightlyBuild.dir/" "CMakeRuleHashes.txt" "ContinuousTest.dir/" "ContinuousConfigure.dir/" "../" "Continuous.dir/" "Makefile2" "3.2.2/")
-
- ("/home/hongziki/projects/mytest/c++/algorithms/test_math/include/" (22255 39718 253095 358000) "./" "../" "a.h")
-
- ("/tmp/" (22255 39100 927653 473000) "tracker-extract-files.1000/" ".ICE-unix/" "build-irony-server-0.2.0/" ".font-unix/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-colord.service-Lh2myA/" "ssh-sGuXUeaK2iVP/" ".X11-unix/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-rtkit-daemon.service-7nSNHX/" "fcitx-socket-:1" "mendeley-desktop-1000.lock" ".XIM-unix/" ".com.google.Chrome.gIVSTJ/" ".Test-unix/" "config-err-xkEnpV" "hsperfdata_hongziki/" "systemd-private-2c494a3aed4e425e87f78a3a3cd4c3b5-systemd-timesyncd.service-GWdtg2/" "NutstoreTmp0xyz/" "../" "./")
-
- ("/tmp/build-irony-server-0.2.0/" (22255 38041 34615 911000) "CMakeCache.txt" "DartConfiguration.tcl" "Testing/" "cmake_install.cmake" "bin/" "install_manifest.txt" "test/" "./" "CMakeFiles/" "docs/" "CTestTestfile.cmake" "Makefile" "src/" "../")
-
- ("/home/hongziki/projects/mytest/c++/algorithms/" (22255 39528 733786 516000) "queue-link.cxx" "program-3-15.cpp" "test_math/" "avg_std" "stack_link.cxx" "program-4-19.cxx" "program-4-16.cxx" "program-4-17" "program-4-17.cxx" "UF.cxx" "list.h" "program-3-9.cpp" "stack.h" "avg_std.cpp" "sort.cxx" "program-3-15" "STACK.cxx" "./" "sort3" "sort3.o" "sort3.c" "program-3-9" "list.cpp" "sort" "../" "malloc2dArr.cpp")
-
- ("/home/hongziki/.emacs.d/elpa/" (22255 21781 651566 88000) "popup-20151222.1339/" "epc-20140609.2234/" "concurrent-20160109.2046/" "rtags-20160306.1546/" "deferred-20160109.2046/" "request-20160108.33/" "async-20160223.146/" "auto-complete-c-headers-readme.txt" "archives/" "auto-complete-20160229.1706/" "jedi-20151214.705/" "dash-20160223.1028/" "let-alist-1.0.4/" "elpy-readme.txt" "epl-20150517.433/" "auto-complete-exuberant-ctags-readme.txt" "elpy-20160131.118/" "flymake-google-cpplint-readme.txt" "auto-complete-clang-async-readme.txt" "auto-complete-c-headers-20150911.2023/" "flycheck-20160302.1046/" "swiper-20160115.800/" "pkg-info-20150517.443/" "gnupg/" "pyvenv-20160108.28/" "company-irony-20160317.1533/" "better-defaults-20160127.2318/" "websocket-20160227.2122/" "cmake-ide-20160227.115/" "seq-1.11/" "solarized-theme-20160106.15/" "./" "let-alist-1.0.4.signed" "ctable-20140304.1659/" "python-environment-20150310.153/" "cl-generic-0.2/" "flymake-google-cpplint-20140205.525/" "irony-20160317.1527/" "jedi-core-20151214.705/" "levenshtein-20051013.1056/" "google-c-style-20140929.1118/" "company-20160228.1705/" "flymake-easy-20140818.55/" "git-commit-20160130.649/" "yasnippet-20160104.129/" "find-file-in-project-20151216.1850/" "el-search-readme.txt" "with-editor-20160223.1155/" "seq-1.11.signed" "magit-20160302.322/" "auto-complete-chunk-readme.txt" "flymake-cursor-20130822.332/" "auto-complete-clang-20140409.52/" "highlight-indentation-20150307.208/" "iedit-20150915.2022/" "ein-20160203.2026/" "../" "py-autopep8-20151231.614/" "material-theme-20160302.1334/" "cl-generic-0.2.signed" "magit-popup-20160302.322/" "auto-complete-clang-readme.txt")
-
- ("/home/hongziki/.emacs.d/elpa/company-irony-20160317.1533/" (22255 21781 731564 360000) "company-irony-pkg.elc" "./" "company-irony.el" "../" "company-irony.elc" "company-irony-autoloads.el" "company-irony-pkg.el")
-
- ("/home/hongziki/projects/job/job_note/xinhua08/newbond/" (22250 25408 928433 518000) "tri_tree_rate.pyc" "xinhua.tar.bz2" "scs.txt" "time_flow.pyc" "callable_putable.py" "债券系统2.0定价模型IT开发版本v0.1-20161121(3).pdf" "yield_interpolation.py" "accrued_interest.pyc" "债券系统2.0信用利差曲线解决方案v0.2-20160316.docx" "common_vars.py" "bank_date.pyc" "债券系统2.0定价模型IT开发版本v0.1-20161121(2).pdf" "yield_curve.py" "__init__.py" "tri_tree_rate.py" "time_flow.py" ".~lock.债券系统2.0定价模型IT开发版本v0.1-20161121.doc#" "┐╔╫к╒о╫ю╓╒│╠╨Є (2)/" "common_vars.pyc" "bank_date.py" "yield_interpolation.pyc" "outrightrepo_bond.py" "债券系统2.0信用利差曲线解决方案v0.1-20160311.docx" "20160303费用报销手册3.0.xlsx" "yield_curve.pyc" "portfolio.png" "excel.rar" "20160311.doc" "债券系统2.0定价模型IT开发版本v0.1-20161121.doc" "forward_bond.py" "portfolio.dia" "./" "treasury_future.py" "可转债最终程序 (1).zip" "pure_bond.pyc" ".idea/" "债券系统2.0定价模型IT开发版本v0.1-20161121.pdf" "zhangxianda/" "pure_bond.py" "bbd_short_rate.docx" "tri_tree_bond_usa.py" "债券系统2.0定价模型IT开发版本v0.1-20161121(1).pdf" "zhangxianda.rar" "accrued_interest.py" "../" "┐╔╫к╒о╫ю╓╒│╠╨Є/" "债券系统2.0信用利差曲线解决方案v0.1-20160316.docx" "buyback_bond.py" "可转债最终程序.zip")
-
- ("/home/hongziki/projects/git/rmfygg_parser/data/" (22251 30387 421774 876000) "rmfygg" "erro_log.txt" "rmfygg_shuf1000" "rmfy_gengzheng" "rmfy_ret_bak" "ret2" "#content_left_mod1#" "./" "rmfy_ret" "rmfy_ret_all" "rmfygg_shuf10000" "rmfy_ret_bak1" "ret1" "../" "content_shrink" "附件2.企业相关信息解析需求文档.docx")
-
- ("/home/hongziki/projects/git/higgs_parser/libs/" (22247 48472 306319 908000) "common_re.py" "./" "../")
-
- ("/home/hongziki/projects/git/higgs_parser/app/" (22247 49852 152496 614000) "rmfy_parser.py" "__init__.py" "pra.py" "./" "__init__.pyc" "ktgg_parser.py" "../" "rmfy_parse.py" "rmfy_parser.pyc")
-
- ("/home/hongziki/projects/git/higgs_parser/" (22247 47373 72733 694000) "__init__.py" "Readme" "./" "__init__.pyc" "resource/" ".gitignore" "app/" ".git/" "../" "doc/" "libs/")
-
- ("/home/hongziki/projects/job/qqzone/apps/" (22102 56044 0 0) "parsing_args.pyc" "sampling.py" "qzone_extr.py" "extr_dir.py" "./" ".python-version" "../" "qzone_extr.pyc")
-
- ("/home/hongziki/projects/job/qqzone/" (22102 56046 0 0) "README" "data/" "./" "dict/" "apps/" ".gitignore" ".git/" "../")
-
- ("/home/hongziki/projects/job/extr_executive_info/apps/" (22102 56014 0 0) "extr_positions_now.py" "extr_executive_info.py" "./" "prepare.py" "../")
-
- ("/home/hongziki/projects/job/extr_executive_info/" (22102 56026 0 0) "Readme" "data/" "./" "docs/" "apps/" ".gitignore" ".git/" "../")
-
- ("/home/hongziki/projects/git/my_tools/my_git_tools/" (22247 34920 917228 339000) "./" "../")
-
- ("/home/hongziki/projects/job/higgs_addr/apps/" (22120 3822 0 0) "./" "addr_extr.py" "../")
-
- ("/home/hongziki/projects/job/higgs_addr/" (22102 56030 0 0) "data/" "./" ".idea/" "apps/" ".gitignore" ".git/" "../" "libs/")
-
- ("/home/hongziki/projects/job/economic_index/" (22102 56012 0 0) "data/" "./" ".idea/" "apps/" ".gitignore" ".git/" "../" "libs/")
-
- ("/home/hongziki/projects/git/higgs_parser/resource/" (22247 41945 389971 327000) "rmfy_nickname.dat" "rmfy_reason.dat" "./" "../")
-
- ("/home/hongziki/projects/job/bidding/apps/" (22102 55886 0 0) "extract_info.py" "extract_info.pyc" "extr_org.py" "./" "prepare.py" "../" "extractor_module.py")
-
- ("/home/hongziki/projects/job/bidding/" (22102 55886 0 0) "Readme" "data/" "./" "result/" ".idea/" "docs/" "apps/" ".gitignore" "Readme.md" ".git/" "../" "libs/")
-
- ("/home/hongziki/projects/git/rmfygg_parser/" (22242 37195 820836 514000) "data/" "./" ".idea/" ".gitignore" "app/" ".git/" "../")
-
- ("/home/hongziki/projects/git/computing-engine/" (22242 35537 937784 257000) "tri_tree_rate.pyc" "treasury_c.py" "result.csv" "tri_tree.c" "time_flow.pyc" "callable_putable.py" "convertible_boost_wrapper.py" "yield_interpolation.py" "accrued_interest.pyc" "right_confirmation.c" "BondComputingEngineService.thrift.idl_gen.bat" "callable_putable.pyc" "tri_tree.so" "transferCurve.py" "output_to_file.py" "BondComputingEngine.py" "monty_model.py" "common_vars.py" "bank_date.pyc" "BondComputingEngineService.thrift.idl" "yield_curve.py" "config.py" "risk_measurement.py" "curve_rf_10.csv" "help.txt" "curve_rf_16.csv" "__init__.py" "treasury_c.pyc" "discount_bond.py" "right_confirmation.so" "tri_tree_rate.py" "time_flow.py" "curve_rf_2_bak.csv" "convertible_boost_wrapper.pyc" "curve_unittest.py" "common_vars.pyc" "time_this.py" "bank_date.py" "yield_interpolation.pyc" "portfolio_var.py" "outrightrepo_bond.py" "client/" "setup.py" "discount_bond.pyc" "yield_curve.pyc" "forward_bond.py" "read_data.pyc" "forward_bond.pyc" "tests.py" "curve_rf_20.csv" "./" "curve_transfer_show.py" "read_data.py" "treasury_future.py" "portfolio.py" "pure_bond.pyc" "time_this.pyc" "README.md" "convertible_bond.pyc" "convertible_bond.py" "genpy/" "option_confirm.so" "mysqlutil.py" "monty_model.pyc" "treasury_future.pyc" "CalculateHandler.py" "pure_bond.py" ".gitignore" "curve_rf_6.csv" "tri_tree_bond_usa.py" "build/" ".git/" "thrift-0.9.2.exe" "curve_rf_24.csv" "accrued_interest.py" "../" "buyback_bond.py" "curve_rf_2.csv" "gen-py/" "risk_measure.py")
-
- ("/home/hongziki/projects/job/job_note/xinhua08/" (22228 3424 248912 157000) "组合分析结果说明.wps" "新华08-定价定价系统测试样例-V0.1-20150923.doc" "321321" "债券分析-利率曲线构造算法文档.docx" "BBD-定价模型文件/" "xxxxxxxxxxxxxx" "债券定价模型-概要设计说明书模板 .docx" "eeeeeee" "111111111111111111" "新华08-到期转即期推导过程.docx" "项目名称-概要设计说明书模板.docx" "xinhua_base.py" "new_date" "callput.csv" "Re_中经“新华08项目”城商行版债券定价系统项目基于２０１５年９月３０日的核心.zip" "债券远期伪代码.docx" "新华社-BBD债券定价模型接口文档-2015年8月16日by雄_V1.docx" "债券4个定价模型/" "Curve3.rar" "new_accum_delta" "测试问题记录.docx" "BBD债券定价系统-可转换债券定价伪代码V0.8-2015年11月23日.docx" "Curve3/" "randdd.py" "新华08-定价模型代码不足-V0.1-20150912.doc" "债券说明v01.wps" "表格新.docx" "newbond.zip" "new_trans_profile" "新华08-上市可转债实例-20150822V1.xlsx" "transfer_bond/" "Re_中经“新华08项目”城商行版债券定价系统项目基于２０１５年９月３０日的核心/" "bond_systime2.docx" "结果" "新华08-定价模型IT开发-V1.2-20150827-Final-by_GY.doc" "vvvvvvvvv" "22222222222" "price.xlsx" "rand.txt" "新华08-定价模型IT开发-V1.7-20150912-Final-by_GY_bak.doc" "new_ai" "新华08-定价模型IT开发-V1.71-20150914-Final-by_GY.doc" "债券4个定价模型.zip" "新华08-到期利率曲线转即期利率利率曲线模块功能文档.docx" "newbond/" "新华08项目-到期转即期.docx" "新华08-定价模型IT开发-V1.4-20150906-Final-by_GY.doc" "old_trans_profile" "old_ai" "表格.docx" "./" "bbbbbbb" "组合计算结果说明" "floating_rate_bond.py" "新华08-15贴现债券03-20150818v3.xlsx" "债券定价模型.docx" "关键年久期算法流程.doc" "即期-可摊还债券测试.xlsx" "新华08产品实现过程.pdf" "document2.0/" "field_charge" "123123" "111111111111" "测试BUG合集.docx" "monty_delta" "新华08-定价模型IT开发-V1.7-20150912-Final-by_GY_bak1.doc" "simu.txt" "新华08项目-债券回购伪代码-20150828.doc" "Link to 新华08-定价模型IT开发-V1.7-20150912-Final-by_GY.doc" "前四种债券计算结果.wps" "tmp" "old_date" "新华08-定价模型IT开发-Code-v0.1-20150820.docx" "../" "新华08-到期利率曲线转即期利率利率曲线模块功能文档.doc" "可能出现的问题.doc" "新华08-关键年久期算法文档-V0.1-20150917.doc" "新华08-定价模型IT开发-V1.2-20150820.doc" "中经新华08-债券定价系统-即期转到期文档V0.1-2015年8月27日.docx" "新华08-定价模型IT开发-V1.6-20150909-Final-by_GY.doc" "draw/" "银行间固定利率国债即期收益率曲线-20150820.xlsx" "新华08-定价模型代码不足-V0.1.pdf" "中经新华08-债券无风险利率曲线20150905.V0.2.docx")
-
- ("/home/hongziki/projects/git/bond_system/libs/" (22242 8517 651860 64000) "time_flow.pyc" "yield_interpolation.py" "accrued_interest.pyc" "common_vars.py" "bank_date.pyc" "yield_curve.py" "__init__.py" "time_flow.py" "common_vars.pyc" "bank_date.py" "yield_interpolation.pyc" "yield_curve.pyc" "read_data.pyc" "./" "curve_transfer_show.py" "read_data.py" "__init__.pyc" "accrued_interest.py" "../")
-
- ("/home/hongziki/projects/git/bond_system/bond/" (22187 4220 361011 944000) "tri_tree_rate.pyc" "treasury_c.py" "tri_tree.c" "callable_putable.py" "convertible_boost_wrapper.py" "right_confirmation.c" "callable_putable.pyc" "tri_tree.so" "monty_model.py" "__init__.py" "treasury_c.pyc" "discount_bond.py" "right_confirmation.so" "tri_tree_rate.py" "convertible_boost_wrapper.pyc" "outrightrepo_bond.pyc" "outrightrepo_bond.py" "setup.py" "discount_bond.pyc" "tri_tree_wrapper.pyc" "buyback_bond.pyc" "forward_bond.py" "forward_bond.pyc" "./" "treasury_future.py" "pure_bond.pyc" "convertible_bond.pyc" "convertible_bond.py" "monty_model.pyc" "__init__.pyc" "treasury_future.pyc" "tri_tree_wrapper.py" "pure_bond.py" "../" "buyback_bond.py")
-
- ("/home/hongziki/projects/job/xinhua08/apps/" (22169 52212 133194 671000) "tri_tree_rate.pyc" "callable_putable.py" "xinhua_yield_curve_transfer.pyc" "callable_putable.pyc" "xinhua_base.py" "bond_base.py" "discount_bond.py" "tri_tree_rate.py" "monte_carlo_model.pyc" "curve_unittest.py" "time_this.py" "amortization_bond.pyc" "outrightrepo_bond.py" "xinhua_yield_curve_transfer.py" "bond_base.pyc" "fixed_rate_bond.py" "floating_rate_bond.pyc" "fixed_rate_bond.pyc" "xinhua_base.pyc" "discount_bond.pyc" "amortization_bond.py" "YieldCurveV1.py" ".xinhua_yield_curve_transfer.py.swp" "monte_carlo_model.py" "forward_bond.py" "transfer_bond.py" "./" "floating_rate_bond.py" "treasury_future.py" "portfolio.py" "time_this.pyc" "YieldCurveV1.pyc" "xinhua_yield_curve_transfer_bak.py" "tri_tree_bond_usa.py" "../" "buyback_bond.py")
-
- ("/home/hongziki/projects/job/xinhua08/" (22102 56160 0 0) "Readme" "./" ".idea/" "apps/" ".gitignore" ".git/" "../")
-
- ("/home/hongziki/projects/git/bond_system/" (22187 2092 699701 966000) "__init__.py" "bond/" "risk/" "./" ".idea/" "tests/" "__init__.pyc" ".gitignore" ".git/" "../" "libs/")
-
- ("/home/hongziki/projects/job/proj_module/" (22102 56042 0 0) "py_file_module.py" "./" "shell_file_module.sh" ".gitignore" ".git/" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -6,6 +6,12 @@
 class ${1:ClassName}(${2:object}):
     """${3:Documentation for $1}
 
+    Note:
+        
+
+    Attributes:
+
+
     """
     def __init__(self${4:, args}):
         super($1, self).__init__($5)

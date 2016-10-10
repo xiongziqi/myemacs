@@ -1,0 +1,14 @@
+ls
+ls
+mv denfendant_place.py litigant_place.py
+cp litigant_place.py litigant_cri_reco.py
+ls
+create_py load_corpus.py
+ls
+create_py count_ngram.py
+ls
+create_py keys_count_value.py
+create_py custom_array.py
+create_py mkns_key_value.py
+ls
+cp postmkvirtualenv ~/projects/at_home/my_tools/shells/
