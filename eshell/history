@@ -12,3 +12,83 @@ create_py custom_array.py
 create_py mkns_key_value.py
 ls
 cp postmkvirtualenv ~/projects/at_home/my_tools/shells/
+ls
+ls
+rm ngram.stat 
+cd ..
+git status .
+git add .;git commit
+git branch -av
+git remote -av
+git remote -v
+git push origin dict_class:dict_class
+origin	ssh://git@git.bbdservice.net:51668/BBD-AI-Lab/statistical-language-model.git (fetch)
+git branch -av
+git status .
+ls
+cat ngram_words.py 
+cat ngram_class.py 
+rm ngram_class.py 
+git status .
+git add .;git commit
+git checkout -b ngram_based_on_dictionary
+ls
+cd ..
+git pull origin dict_class
+ls
+cat apps/ngram_words.py 
+cd apps/
+python ngram_words.py 
+cat ngram.stat 
+rm ngram.stat 
+git branch
+git diff
+git branch -av
+git push origin ngram_based_on_dictionay:ngram_based_on_dictionay
+git push origin ngram_based_on_dictionary:ngram_based_on_dictionary
+p
+python ngram_words.py 
+git status .
+create_py lm_server.py
+create_py lm_client.py
+create_py corpus_handler.py
+cd ../..
+cd ..
+ls
+cd at_home/
+ls
+cd ../../tmp/
+ls
+git init tmp_git
+cd tmp_git/
+ls
+create_py hello.py
+git add .;git commit -m 'init'
+creat_py mytest.py
+create_py mytest.py
+git add mytest.py ;git commit -m 'init mytest'
+create_py tmp_test.py
+git log
+cd ../../projects/at_home/
+ls
+git init my_translations
+cd my_translations/
+ls
+mkdir Neural_Networks_and_Deep_Learning_by_Michael_Nielsen
+cd Neural_Networks_and_Deep_Learning_by_Michael_Nielsen/
+ls
+touch chap1.md
+ls
+pandoc -f markdown -t pdf chap1.md -t chap1.pdf
+pandoc -s -o chap1.pdf chap1.md 
+ls
+pandoc -s -o chap1.html chap1.md 
+pandoc -s -o chap1.pdf chap1.md --latex-engine=latex
+pandoc -s -o chap1.pdf chap1.md --latex-engine=xelatex
+pandoc -s -o chap1.pdf chap1.md --latex-engine=xelatex
+ls
+rm chap1.html 
+ls
+pandoc -s -o chap1.pdf chap1.md 
+pandoc -s -o chap1.pdf chap1.md --latex-engin=xelatex
+pandoc -s -o chap1.pdf chap1.md --latex-engine=xelatex
